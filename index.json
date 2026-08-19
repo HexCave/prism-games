@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T22:06:43.993Z",
+  "generatedAt": "2026-08-19T22:10:18.467Z",
   "host": "play.html",
   "categories": [
     {
@@ -26,7 +26,7 @@
     {
       "id": "strategy",
       "label": "Strategy",
-      "count": 0
+      "count": 1
     },
     {
       "id": "rhythm",
@@ -65,6 +65,40 @@
           "files": 6,
           "releasedAt": "2026-08-19T21:51:58.676Z",
           "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "deep-six",
+      "title": "Deep Six",
+      "tagline": "Six floors down. You will not survive the first few runs.",
+      "description": "A small turn-based dungeon with permanent death and a long memory. Every run ends, and every run pays out echoes you spend on what you start with next time — a blade, a coat, a lantern that shows you more of the dark. The dungeon is new each run; what you have earned is not.",
+      "category": "strategy",
+      "tags": [
+        "roguelite",
+        "turn-based",
+        "permadeath",
+        "progression"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Arrow keys or WASD to move and attack",
+        "Space to wait",
+        "Q to quaff a potion"
+      ],
+      "cover": "games/deep-six/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T22:10:18.455Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/deep-six/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 17656,
+          "files": 4,
+          "releasedAt": "2026-08-19T22:10:18.455Z",
+          "notes": "First release. Six floors."
         }
       ]
     },

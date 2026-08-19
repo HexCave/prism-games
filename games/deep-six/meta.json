@@ -1,0 +1,26 @@
+{
+  "id": "deep-six",
+  "title": "Deep Six",
+  "tagline": "Six floors down. You will not survive the first few runs.",
+  "description": "A small turn-based dungeon with permanent death and a long memory. Every run ends, and every run pays out echoes you spend on what you start with next time — a blade, a coat, a lantern that shows you more of the dark. The dungeon is new each run; what you have earned is not.",
+  "category": "strategy",
+  "tags": [
+    "roguelite",
+    "turn-based",
+    "permadeath",
+    "progression"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Arrow keys or WASD to move and attack",
+    "Space to wait",
+    "Q to quaff a potion"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T22:10:18.455Z",
+      "notes": "First release. Six floors."
+    }
+  }
+}
