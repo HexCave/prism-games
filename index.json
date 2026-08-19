@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T22:57:08.906Z",
+  "generatedAt": "2026-08-19T23:04:42.692Z",
   "host": "play.html",
   "categories": [
     {
@@ -36,10 +36,52 @@
     {
       "id": "idle",
       "label": "Idle",
-      "count": 0
+      "count": 1
     }
   ],
   "games": [
+    {
+      "id": "cascade",
+      "title": "Cascade",
+      "tagline": "One photon becomes two. Then it gets out of hand.",
+      "description": "An idle game about light multiplying. You start with a single stream and one photon a second; every splitter you buy branches the tree again, cleaner glass makes each stream brighter, and a wider spectrum multiplies the lot. Leaving is not a failure state here — the tree keeps running while the tab is shut, and you come back to what it earned. When the numbers get silly, fold the whole tree back to nothing in exchange for a permanent share of the spectrum.",
+      "category": "idle",
+      "tags": [
+        "idle",
+        "incremental",
+        "prestige",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Tap to collect",
+        "Tap to buy"
+      ],
+      "howToPlay": [
+        "Buy a splitter. It branches the beam again and adds another stream, and every stream produces photons on its own.",
+        "Splitters get more expensive each time, so the other upgrades are what keep the curve moving: cleaner glass brightens every stream, a brighter source and a wider spectrum multiply everything.",
+        "Tap or click the tree itself for a small handful of photons whenever you like. It is never required.",
+        "Close the tab whenever you want. The tree keeps producing while you are away, up to eight hours' worth.",
+        "Once you have earned enough, prestige: the tree resets to nothing and you keep spectra, which permanently raise everything you produce from then on.",
+        "The first prestige takes about twenty minutes. After that they come faster and are worth more."
+      ],
+      "goal": "Grow the tree, then prestige to make the next one grow faster. There is no losing, only how far you have got.",
+      "cover": "games/cascade/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T23:04:42.682Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/cascade/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 17735,
+          "files": 4,
+          "releasedAt": "2026-08-19T23:04:42.682Z",
+          "notes": "First release. Curve balanced against a simulated six-hour game."
+        }
+      ]
+    },
     {
       "id": "caustic",
       "title": "Caustic",

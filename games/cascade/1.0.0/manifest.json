@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cascade",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T23:04:42.681Z",
+  "totalBytes": 17735,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 822,
+      "sha256": "0a4ec3145e86f95b0b59ed91fe1f9aba296bec9c89cc45e3de640c7489f146c7"
+    },
+    {
+      "path": "main.js",
+      "bytes": 7937,
+      "sha256": "7f5899dc8a69fa8d9d622e6aa09c4bb070675d201b0b0dd6f36655e377d5a2bb"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2708,
+      "sha256": "8e08f54ee03df3b9ef16e8e7ec1d605a02b9724add559ce7838dc995ccb8eaac"
+    }
+  ]
+}

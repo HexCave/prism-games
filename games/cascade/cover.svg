@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <filter id="g" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="480" height="270" fill="#04050c"/>
+  <g filter="url(#g)" stroke-linecap="round" fill="none">
+    <path d="M240 262V196" stroke="#38bdf8" stroke-width="8"/>
+    <path d="M240 196 190 152M240 196 290 152" stroke="#4aa8f0" stroke-width="6"/>
+    <path d="M190 152 156 118M190 152 220 116M290 152 260 116M290 152 324 118" stroke="#5f9bf0" stroke-width="4.5"/>
+    <path d="M156 118 132 92M156 118 176 88M220 116 202 88M220 116 238 86M260 116 242 86M260 116 280 88M324 118 306 88M324 118 348 92"
+          stroke="#7c93ee" stroke-width="3.2"/>
+    <path d="M132 92 116 72M132 92 146 68M176 88 164 66M176 88 190 64M202 88 192 64M202 88 214 62M238 86 230 62M238 86 250 62M242 86 254 62M280 88 292 64M306 88 318 66M348 92 364 72"
+          stroke="#9b8bec" stroke-width="2.2" stroke-opacity="0.9"/>
+  </g>
+  <g fill="#bfe6ff">
+    <circle cx="240" cy="196" r="4"/><circle cx="190" cy="152" r="3.4"/><circle cx="290" cy="152" r="3.4"/>
+    <circle cx="156" cy="118" r="2.8"/><circle cx="220" cy="116" r="2.8"/>
+    <circle cx="260" cy="116" r="2.8"/><circle cx="324" cy="118" r="2.8"/>
+  </g>
+  <text x="30" y="52" font-family="system-ui, sans-serif" font-size="34" font-weight="700" fill="#e8ecfa">1.42M</text>
+  <text x="30" y="72" font-family="system-ui, sans-serif" font-size="11" letter-spacing="2.4" fill="#6b7691">18.4K / SECOND</text>
+</svg>
