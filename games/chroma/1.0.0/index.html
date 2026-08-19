@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Chroma</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="left"><span id="score">0</span><span id="mode-label">Daily</span></div>
+    <div class="right"><span id="best">best 0</span><span id="chain" class="chain"></span></div>
+  </header>
+
+  <footer class="foot">
+    <button id="mode" class="ghost" type="button">Endless</button>
+    <button id="undo" class="ghost" type="button">Undo</button>
+    <span class="hint" id="hint">Tap a column to drop</span>
+  </footer>
+
+  <div class="result" id="result" hidden>
+    <h1 id="result-title">Board full</h1>
+    <p id="result-text"></p>
+    <pre id="result-block" class="block"></pre>
+    <div class="actions" id="result-actions"></div>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "chroma",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T22:47:36.852Z",
+  "totalBytes": 21037,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1042,
+      "sha256": "573e016dc25ea4e9037c4f51b549ecdccac4043183917731670335c2381ba4a7"
+    },
+    {
+      "path": "main.js",
+      "bytes": 11294,
+      "sha256": "294f75a807a7c9d660ad59c81bacf74fa1b4604c0a1dc5675f3fb0e5a4562ab5"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2433,
+      "sha256": "2539406e60a2879aa8a17ad28301f4d850044c9a2476beae47b10e273c7ea65c"
+    }
+  ]
+}

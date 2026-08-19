@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T22:42:13.681Z",
+  "generatedAt": "2026-08-19T22:47:36.861Z",
   "host": "play.html",
   "categories": [
     {
@@ -11,7 +11,7 @@
     {
       "id": "puzzle",
       "label": "Puzzle",
-      "count": 4
+      "count": 5
     },
     {
       "id": "action",
@@ -40,6 +40,49 @@
     }
   ],
   "games": [
+    {
+      "id": "chroma",
+      "title": "Chroma",
+      "tagline": "Red and green make yellow. Yellow and blue make trouble.",
+      "description": "A merge game where the merges follow light rather than arithmetic. Tiles that share no colour combine into their mixture — red and green into yellow, yellow and blue into white — and two whites collapse into a prism that takes a whole row with it. Because mixing is a branching graph rather than a doubling ladder, there is rarely one correct move: cash the yellows in now, or hold the blues for something better. Everyone gets the same tile order each day.",
+      "category": "puzzle",
+      "tags": [
+        "merge",
+        "daily",
+        "highscore",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Tap a column to drop",
+        "Keys 1-6 on desktop",
+        "Z to undo"
+      ],
+      "howToPlay": [
+        "Tap or click a column to drop the tile shown at the top. On a keyboard, keys 1 to 6 pick the column.",
+        "Two tiles touching side by side or one above the other merge if they share no colour: red and green become yellow, red and blue become magenta, yellow and blue become white.",
+        "Two tiles of the same colour never merge, so a board of nothing but red is a board in trouble.",
+        "Two whites side by side collapse into a prism, which clears its entire row.",
+        "Every merge drops what is above it, which can set off another merge — chains multiply the score.",
+        "Fill every column and the game ends. The daily board gives everyone the same tile order; endless is a fresh sequence every time."
+      ],
+      "goal": "Score as much as you can before the grid fills. Chains are where the points are — a merge that triggers another is worth far more than two separate ones.",
+      "cover": "games/chroma/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T22:47:36.852Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/chroma/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 21037,
+          "files": 4,
+          "releasedAt": "2026-08-19T22:47:36.852Z",
+          "notes": "First release."
+        }
+      ]
+    },
     {
       "id": "cinder",
       "title": "Cinder",
