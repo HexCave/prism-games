@@ -1,0 +1,26 @@
+{
+  "id": "kite",
+  "title": "Kite",
+  "tagline": "No engine. Trade height for speed and hope the canyon agrees.",
+  "description": "A glider, a canyon and a clock. Diving buys speed and spends altitude; thermals give some back if you can find them. The course never changes, so every run is against the last one — your best flight is kept as a ghost and flies it again beside you, which is a more honest opponent than a leaderboard.",
+  "category": "racing",
+  "tags": [
+    "3d",
+    "webgl",
+    "time-trial",
+    "ghost"
+  ],
+  "dimension": "3d",
+  "author": "HexCave",
+  "controls": [
+    "A / D or left-right to bank",
+    "W / S or up-down to pitch",
+    "Space to start"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T22:06:43.970Z",
+      "notes": "First release."
+    }
+  }
+}

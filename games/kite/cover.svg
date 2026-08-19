@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0f1c"/><stop offset="1" stop-color="#1b2545"/>
+    </linearGradient>
+    <linearGradient id="rockL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#161d33"/><stop offset="1" stop-color="#2b3557"/>
+    </linearGradient>
+    <linearGradient id="rockR" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#3d4a72"/><stop offset="1" stop-color="#28324f"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="270" fill="url(#sky)"/>
+  <path d="M0 0v270h150l60-140-14-18 10-24-18-16 12-22-16-20 8-30H0z" fill="url(#rockL)"/>
+  <path d="M480 0v270H330l-58-140 13-18-9-24 17-16-11-22 15-20-7-30h190z" fill="url(#rockR)"/>
+  <path d="M150 270l60-140h60l60 140z" fill="#222c48"/>
+  <g stroke="#7dd3fc" stroke-opacity="0.22" stroke-width="3">
+    <path d="M196 176h88"/><path d="M186 200h108"/><path d="M172 230h136"/><path d="M156 262h168"/>
+  </g>
+  <ellipse cx="240" cy="132" rx="34" ry="8" fill="none" stroke="#fbbf24" stroke-opacity="0.6" stroke-width="3"/>
+  <g>
+    <path d="M180 196l60-26 60 26-60 16z" fill="#7dd3fc" opacity="0.95"/>
+    <path d="M222 178l18-8 18 8-18 26z" fill="#bfe6ff"/>
+  </g>
+  <g opacity="0.35">
+    <path d="M206 156l34-14 34 14-34 10z" fill="#f9a8d4"/>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T22:02:43.421Z",
+  "generatedAt": "2026-08-19T22:06:43.993Z",
   "host": "play.html",
   "categories": [
     {
@@ -21,7 +21,7 @@
     {
       "id": "racing",
       "label": "Racing",
-      "count": 1
+      "count": 2
     },
     {
       "id": "strategy",
@@ -97,6 +97,40 @@
           "totalBytes": 498625,
           "files": 4,
           "releasedAt": "2026-08-19T19:40:43.543Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "kite",
+      "title": "Kite",
+      "tagline": "No engine. Trade height for speed and hope the canyon agrees.",
+      "description": "A glider, a canyon and a clock. Diving buys speed and spends altitude; thermals give some back if you can find them. The course never changes, so every run is against the last one — your best flight is kept as a ghost and flies it again beside you, which is a more honest opponent than a leaderboard.",
+      "category": "racing",
+      "tags": [
+        "3d",
+        "webgl",
+        "time-trial",
+        "ghost"
+      ],
+      "dimension": "3d",
+      "author": "HexCave",
+      "controls": [
+        "A / D or left-right to bank",
+        "W / S or up-down to pitch",
+        "Space to start"
+      ],
+      "cover": "games/kite/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T22:06:43.970Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/kite/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 495986,
+          "files": 4,
+          "releasedAt": "2026-08-19T22:06:43.970Z",
           "notes": "First release."
         }
       ]
