@@ -17,6 +17,15 @@
     "Space to ping",
     "Shift to move quietly"
   ],
+  "howToPlay": [
+    "You are in a dark maze with a sonar and no map. Move with WASD or the arrow keys; hold shift to move quietly.",
+    "Press space to ping. The ring paints every wall it touches and flashes anything alive back at you as a red blip.",
+    "Walls you have seen stay faintly visible, so the map builds up as you explore.",
+    "The ping is also a shout: anything within earshot turns and comes towards where you pinged from.",
+    "A red glow at the edge of the screen means something is close, even if you cannot see it.",
+    "Find the green exit to descend. Three touches ends the run — each one sends you back to the entrance of the floor you are on."
+  ],
+  "goal": "Find the way down on each level and go as deep as you can. Your deepest floor is kept.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T21:47:58.468Z",

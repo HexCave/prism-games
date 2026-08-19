@@ -16,6 +16,15 @@
     "Space, click or tap to drop",
     "Any key to restart"
   ],
+  "howToPlay": [
+    "A slab sweeps back and forth above the tower. Press space, click, or tap to drop it.",
+    "Only the part that overlaps the slab below survives — the overhang is sheared off and falls away.",
+    "That means the tower can only get narrower, so every drop matters more than the last.",
+    "Land one within a hair of dead centre and you get a little width back, which is the only way to recover.",
+    "Miss the tower completely and the run is over.",
+    "The sweep gets faster the higher you build."
+  ],
+  "goal": "Stack as many slabs as you can. Height is the score, and your best is kept.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T19:40:43.712Z",

@@ -17,6 +17,15 @@
     "W / S or up-down to pitch",
     "Space to start"
   ],
+  "howToPlay": [
+    "You have no engine. Pitch down with S or the down arrow to trade height for speed, and up to hold height at the cost of it.",
+    "Bank left and right with A and D, or the left and right arrows.",
+    "The gold rings are thermals. Flying through one gives you lift you did not have to buy with speed.",
+    "Clipping a wall or touching the floor ends the run where it stands.",
+    "The canyon is the same every single time, so a faster run is genuinely a better one.",
+    "Once you have set a time, your ghost flies alongside you and the split in the corner tells you whether you are ahead of it."
+  ],
+  "goal": "Fly the canyon as fast as you can. Your best run is saved as a ghost and flies it again beside you.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T22:06:43.970Z",

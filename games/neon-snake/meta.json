@@ -17,6 +17,15 @@
     "Swipe on touch",
     "Space to pause"
   ],
+  "howToPlay": [
+    "Steer with the arrow keys or WASD. On a touch screen, swipe in the direction you want to turn.",
+    "Eat the pink pellet to grow by one segment and score a point.",
+    "Every fourth pellet drops a gold one worth three points — it disappears after six seconds, so it is always a gamble.",
+    "The walls wrap: leaving one edge brings you back in on the opposite side. Your own tail does not wrap, and touching it ends the run.",
+    "The grid speeds up with every pellet eaten, so a long run gets harder on its own.",
+    "Press space to pause, and again to resume."
+  ],
+  "goal": "Eat as many pellets as you can without running into your own tail. Your best run is kept.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T19:40:43.301Z",

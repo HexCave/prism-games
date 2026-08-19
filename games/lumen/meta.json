@@ -17,6 +17,15 @@
     "R rotates the held piece",
     "Right-click to pick a piece back up"
   ],
+  "howToPlay": [
+    "Pick a piece from the tray at the bottom, then click an empty square to place it. Press R to turn the piece before placing it.",
+    "Click a piece you have already placed to rotate it; right-click it to take it back.",
+    "A mirror turns the beam ninety degrees. A splitter sends it two ways at once. A prism breaks it into red, green and blue — red bends right, green carries straight on, blue bends left.",
+    "Coloured glass keeps only its own colour, so white light through red glass comes out red.",
+    "Colours add where they land: red and green arriving together make yellow, and all three make white.",
+    "A receptor is only satisfied by exactly the colour it wants — too many colours is as wrong as too few."
+  ],
+  "goal": "Light every receptor with exactly the colour it is asking for. All eighteen puzzles have been proved solvable.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T21:43:36.108Z",
