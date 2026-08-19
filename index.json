@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T22:13:52.627Z",
+  "generatedAt": "2026-08-19T22:42:13.681Z",
   "host": "play.html",
   "categories": [
     {
@@ -11,7 +11,7 @@
     {
       "id": "puzzle",
       "label": "Puzzle",
-      "count": 3
+      "count": 4
     },
     {
       "id": "action",
@@ -32,6 +32,11 @@
       "id": "rhythm",
       "label": "Rhythm",
       "count": 1
+    },
+    {
+      "id": "idle",
+      "label": "Idle",
+      "count": 0
     }
   ],
   "games": [
@@ -53,6 +58,8 @@
         "Arrow keys or A / D to steer",
         "Space to flare (costs heat)"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/cinder/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T21:51:58.676Z",
@@ -87,6 +94,8 @@
         "Space to wait",
         "Q to quaff a potion"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/deep-six/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T22:10:18.455Z",
@@ -99,6 +108,48 @@
           "files": 4,
           "releasedAt": "2026-08-19T22:10:18.455Z",
           "notes": "First release. Six floors."
+        }
+      ]
+    },
+    {
+      "id": "facet",
+      "title": "Facet",
+      "tagline": "Three shots at the same board as everyone else.",
+      "description": "A ring of mirrored panels, and one beam of light. You drag from the rim to aim, release, and watch it ricochet — every panel it grazes lights up and stays lit. You get three shots to light all sixteen. Everybody in the world plays the same board on the same day, so a result is worth comparing, and there is an unlimited mode with fresh boards when three shots is not enough for one sitting.",
+      "category": "puzzle",
+      "tags": [
+        "daily",
+        "highscore",
+        "logic",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Drag to aim, release to fire",
+        "Arrow keys nudge the angle by half a degree",
+        "Tab switches daily and unlimited"
+      ],
+      "howToPlay": [
+        "Drag anywhere on the board to aim. The launch point snaps to the nearest point on the rim and a dotted line previews the first bounce.",
+        "Release to fire. The beam reflects off panels and the rim until it runs out, lighting every panel it touches.",
+        "Panels stay lit between shots, so plan the next shot around what is still dark.",
+        "You have three shots on the daily board. Clear it and your streak grows; come back tomorrow for a new one.",
+        "Unlimited mode gives you endless fresh boards — clear one to move straight to the next."
+      ],
+      "goal": "Light all sixteen panels in three shots. Fewer shots is better; every board here has been proved clearable.",
+      "cover": "games/facet/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T22:42:13.671Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/facet/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 34284,
+          "files": 4,
+          "releasedAt": "2026-08-19T22:42:13.671Z",
+          "notes": "First release. Daily boards proved clearable through September 2027."
         }
       ]
     },
@@ -121,6 +172,8 @@
         "Right-click a line to clear it",
         "Space to pause"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/freight/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T22:13:52.614Z",
@@ -154,6 +207,8 @@
         "Arrow keys or A / D to roll",
         "Space to start and pause"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/hex-drift/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T19:40:43.543Z",
@@ -188,6 +243,8 @@
         "W / S or up-down to pitch",
         "Space to start"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/kite/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T22:06:43.970Z",
@@ -222,6 +279,8 @@
         "R rotates the held piece",
         "Right-click to pick a piece back up"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/lumen/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T21:43:36.108Z",
@@ -256,6 +315,8 @@
         "Swipe on touch",
         "Space to pause"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/neon-snake/cover.svg",
       "latest": "1.1.0",
       "updatedAt": "2026-08-19T19:41:38.439Z",
@@ -299,6 +360,8 @@
         "Hold to charge, release to launch",
         "Arrow keys also aim; R retries"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/orbital/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T22:02:43.406Z",
@@ -332,6 +395,8 @@
         "Move the mouse, or arrow keys / A-D",
         "Space to launch and pause"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/prism-breaker/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T19:40:43.377Z",
@@ -366,6 +431,8 @@
         "Space to start",
         "Esc to pick another track"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/pulse/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T21:57:47.131Z",
@@ -400,6 +467,8 @@
         "Space to ping",
         "Shift to move quietly"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/signal-lost/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T21:47:58.468Z",
@@ -433,6 +502,8 @@
         "Space, click or tap to drop",
         "Any key to restart"
       ],
+      "howToPlay": [],
+      "goal": "",
       "cover": "games/stackwave/cover.svg",
       "latest": "1.0.0",
       "updatedAt": "2026-08-19T19:40:43.712Z",

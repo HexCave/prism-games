@@ -1,0 +1,34 @@
+{
+  "id": "facet",
+  "title": "Facet",
+  "tagline": "Three shots at the same board as everyone else.",
+  "description": "A ring of mirrored panels, and one beam of light. You drag from the rim to aim, release, and watch it ricochet — every panel it grazes lights up and stays lit. You get three shots to light all sixteen. Everybody in the world plays the same board on the same day, so a result is worth comparing, and there is an unlimited mode with fresh boards when three shots is not enough for one sitting.",
+  "category": "puzzle",
+  "tags": [
+    "daily",
+    "highscore",
+    "logic",
+    "touch"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Drag to aim, release to fire",
+    "Arrow keys nudge the angle by half a degree",
+    "Tab switches daily and unlimited"
+  ],
+  "howToPlay": [
+    "Drag anywhere on the board to aim. The launch point snaps to the nearest point on the rim and a dotted line previews the first bounce.",
+    "Release to fire. The beam reflects off panels and the rim until it runs out, lighting every panel it touches.",
+    "Panels stay lit between shots, so plan the next shot around what is still dark.",
+    "You have three shots on the daily board. Clear it and your streak grows; come back tomorrow for a new one.",
+    "Unlimited mode gives you endless fresh boards — clear one to move straight to the next."
+  ],
+  "goal": "Light all sixteen panels in three shots. Fewer shots is better; every board here has been proved clearable.",
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T22:42:13.671Z",
+      "notes": "First release. Daily boards proved clearable through September 2027."
+    }
+  }
+}
