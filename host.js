@@ -229,10 +229,10 @@
     },
     /**
      * The launcher reads the catalog through here rather than fetching it
-     * directly: this origin serves no CORS headers, so a cross-origin request
-     * from the extension would need a host permission the extension does not
-     * otherwise want. Same-origin from this page, it is just a fetch — and the
-     * service worker keeps a copy for offline.
+     * directly. A request made from the extension would never pass through this
+     * origin's service worker, so there would be no offline copy to fall back
+     * on — and it would depend on this endpoint sending CORS headers, which the
+     * extension should not have to assume.
      */
     catalog: function () {
       return fetch(new URL('index.json', location.href).href, { cache: 'no-cache' })
