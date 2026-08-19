@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Freight</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="left"><span id="delivered">0</span><span id="week">Week 1</span></div>
+    <div class="right">
+      <span id="best">best 0</span>
+      <span id="track">track 0</span>
+    </div>
+  </header>
+
+  <footer class="lines" id="lines"></footer>
+  <p class="tip" id="tip"></p>
+
+  <div class="overlay" id="overlay">
+    <h1 id="overlay-title">Freight</h1>
+    <p id="overlay-text">Pick a colour below, then click depots in order to run a line through them. Trains follow it on their own.</p>
+    <button id="start" type="button">Open the network</button>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

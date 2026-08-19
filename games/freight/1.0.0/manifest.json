@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "freight",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T22:13:52.613Z",
+  "totalBytes": 14225,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 947,
+      "sha256": "50f38b53046be0e5e0ce6865fba7f8d4e63e4a4b1353b03709b358c20850bcf7"
+    },
+    {
+      "path": "main.js",
+      "bytes": 6997,
+      "sha256": "5f9fb156fc7f70d208f5e704d9183d89f6543afe311e5035d4d3f81455a6a5da"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 4180,
+      "sha256": "565721ed848006b7c97a323fe1c1c8c9a4c1cd5664051f2b80f5a90a96d466aa"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2101,
+      "sha256": "b219b4fc85318bed85e0f79dbabfd4e8eab7b8ead4390f0f682c0825147c7605"
+    }
+  ]
+}

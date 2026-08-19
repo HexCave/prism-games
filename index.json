@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T22:10:18.467Z",
+  "generatedAt": "2026-08-19T22:13:52.627Z",
   "host": "play.html",
   "categories": [
     {
@@ -26,7 +26,7 @@
     {
       "id": "strategy",
       "label": "Strategy",
-      "count": 1
+      "count": 2
     },
     {
       "id": "rhythm",
@@ -99,6 +99,40 @@
           "files": 4,
           "releasedAt": "2026-08-19T22:10:18.455Z",
           "notes": "First release. Six floors."
+        }
+      ]
+    },
+    {
+      "id": "freight",
+      "title": "Freight",
+      "tagline": "Draw the lines. The crates keep coming either way.",
+      "description": "Depots appear across the map, each one making a shape and wanting a different one. You have three lines and a limited amount of track: connect the depots, let the trains shuttle, and keep the crates moving. Nothing here needs quick hands — it needs a network that still works when the map has doubled in size. When a depot backs up for too long, the whole thing stops.",
+      "category": "strategy",
+      "tags": [
+        "network",
+        "mouse",
+        "endless",
+        "highscore"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Click a line colour, then click depots to route it",
+        "Right-click a line to clear it",
+        "Space to pause"
+      ],
+      "cover": "games/freight/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T22:13:52.614Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/freight/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 14225,
+          "files": 4,
+          "releasedAt": "2026-08-19T22:13:52.614Z",
+          "notes": "First release."
         }
       ]
     },
