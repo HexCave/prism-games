@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#06070c"/>
+    </linearGradient>
+    <filter id="g" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="480" height="270" fill="url(#bg)"/>
+  <g stroke="#94a3b8" stroke-opacity="0.07">
+    <path d="M0 45H480M0 90H480M0 135H480M0 180H480M0 225H480"/>
+    <path d="M60 0V270M120 0V270M180 0V270M240 0V270M300 0V270M360 0V270M420 0V270"/>
+  </g>
+  <g filter="url(#g)" stroke-width="5" stroke-linecap="round">
+    <path d="M40 135H190" stroke="#f5f5ff"/>
+    <path d="M190 135H430" stroke="#50f082" stroke-opacity="0.95"/>
+    <path d="M190 135 190 40 430 40" stroke="#5096ff" stroke-opacity="0.95"/>
+    <path d="M190 135 190 230 430 230" stroke="#ff465a" stroke-opacity="0.95"/>
+  </g>
+  <g fill="none" stroke="#a78bfa" stroke-width="4" stroke-linejoin="round" filter="url(#g)">
+    <path d="M190 112 209 152h-38z"/>
+  </g>
+  <g filter="url(#g)">
+    <circle cx="430" cy="40" r="12" fill="#5096ff"/>
+    <circle cx="430" cy="135" r="12" fill="#50f082"/>
+    <circle cx="430" cy="230" r="12" fill="#ff465a"/>
+    <circle cx="40" cy="135" r="11" fill="#f5f5ff"/>
+  </g>
+</svg>

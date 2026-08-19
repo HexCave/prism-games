@@ -1,0 +1,26 @@
+{
+  "id": "lumen",
+  "title": "Lumen",
+  "tagline": "Take white light apart and put it back where it belongs.",
+  "description": "Eighteen puzzles about light. Bend a beam with mirrors, cut it in two with a splitter, and break it into red, green and blue with a prism — then land exactly the right colour on every receptor. Colours add where they meet, so yellow is red and green arriving together. Every level has been proved solvable, and the game remembers which ones you have cleared and in how many pieces.",
+  "category": "puzzle",
+  "tags": [
+    "levels",
+    "logic",
+    "mouse",
+    "relaxing"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Click the tray, then click the grid",
+    "R rotates the held piece",
+    "Right-click to pick a piece back up"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T21:43:36.108Z",
+      "notes": "First release. Eighteen levels."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T20:00:21.165Z",
+  "generatedAt": "2026-08-19T21:43:36.119Z",
   "host": "play.html",
   "categories": [
     {
@@ -11,7 +11,7 @@
     {
       "id": "puzzle",
       "label": "Puzzle",
-      "count": 1
+      "count": 2
     },
     {
       "id": "action",
@@ -22,6 +22,16 @@
       "id": "racing",
       "label": "Racing",
       "count": 1
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy",
+      "count": 0
+    },
+    {
+      "id": "rhythm",
+      "label": "Rhythm",
+      "count": 0
     }
   ],
   "games": [
@@ -55,6 +65,40 @@
           "files": 4,
           "releasedAt": "2026-08-19T19:40:43.543Z",
           "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "lumen",
+      "title": "Lumen",
+      "tagline": "Take white light apart and put it back where it belongs.",
+      "description": "Eighteen puzzles about light. Bend a beam with mirrors, cut it in two with a splitter, and break it into red, green and blue with a prism — then land exactly the right colour on every receptor. Colours add where they meet, so yellow is red and green arriving together. Every level has been proved solvable, and the game remembers which ones you have cleared and in how many pieces.",
+      "category": "puzzle",
+      "tags": [
+        "levels",
+        "logic",
+        "mouse",
+        "relaxing"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Click the tray, then click the grid",
+        "R rotates the held piece",
+        "Right-click to pick a piece back up"
+      ],
+      "cover": "games/lumen/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T21:43:36.108Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/lumen/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 22548,
+          "files": 4,
+          "releasedAt": "2026-08-19T21:43:36.108Z",
+          "notes": "First release. Eighteen levels."
         }
       ]
     },
