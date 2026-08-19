@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Umbra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="left"><span id="banked">0</span><span id="mode-label">Endless</span></div>
+    <div class="right"><span id="best">best 0</span><span id="streak"></span></div>
+  </header>
+
+  <section class="core">
+    <div class="carry"><span id="carried">8</span><small>carried</small></div>
+    <div class="depth" id="depth">Surface</div>
+    <div class="risk" id="risk">3.5% chance the next step ends it</div>
+  </section>
+
+  <footer class="controls">
+    <button id="descend" type="button">Descend</button>
+    <button id="bank" class="bank" type="button">Bank</button>
+  </footer>
+
+  <div class="tray">
+    <button id="mode" class="ghost" type="button">Daily descent</button>
+    <button id="shop" class="ghost" type="button">Lantern</button>
+  </div>
+
+  <div class="sheet" id="sheet" hidden>
+    <h2>Lantern</h2>
+    <p id="sheet-light">0 banked</p>
+    <div class="upgrades" id="upgrades"></div>
+    <button id="sheet-close" class="ghost" type="button">Back to the dark</button>
+  </div>
+
+  <div class="banner" id="banner" hidden>
+    <h1 id="banner-title"></h1>
+    <p id="banner-text"></p>
+    <div class="actions" id="banner-actions"></div>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

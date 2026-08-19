@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T22:53:30.033Z",
+  "generatedAt": "2026-08-19T22:57:08.906Z",
   "host": "play.html",
   "categories": [
     {
       "id": "arcade",
       "label": "Arcade",
-      "count": 2
+      "count": 3
     },
     {
       "id": "puzzle",
@@ -602,6 +602,48 @@
           "files": 4,
           "releasedAt": "2026-08-19T19:40:43.712Z",
           "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "umbra",
+      "title": "Umbra",
+      "tagline": "Down doubles it. Down might also end it.",
+      "description": "You carry a lantern down into the dark. Every step down doubles the light you are carrying and raises the chance that the floor gives way and takes all of it. The exact odds are printed on the screen before every step, and they are the odds actually used — nothing is fudged. Bank what you hold at any moment and climb back out, or take one more step. The whole game is that one decision, repeated until you get it wrong.",
+      "category": "arcade",
+      "tags": [
+        "daily",
+        "highscore",
+        "risk",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Descend and Bank",
+        "Down arrow to descend, space to bank"
+      ],
+      "howToPlay": [
+        "Press Descend, or the down arrow, to take one step deeper. Your carried light doubles.",
+        "The percentage above the button is the chance that step ends the descent and takes everything you are carrying. It rises the deeper you go.",
+        "Press Bank, or space, to keep what you are carrying and climb back to the surface. Banked light is safe forever.",
+        "If the floor gives way you lose everything you were carrying — the light already banked is untouched.",
+        "Spend banked light at the surface on lantern upgrades: a bigger lamp, a steadier hand, a safe first step, a second wind.",
+        "The daily descent uses the same sequence of floors for everyone, so what you banked today is worth comparing."
+      ],
+      "goal": "Bank as much light as you can. Banked light buys permanent lantern upgrades, and the daily descent gives everyone the same sequence of floors.",
+      "cover": "games/umbra/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T22:57:08.897Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/umbra/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 21183,
+          "files": 4,
+          "releasedAt": "2026-08-19T22:57:08.897Z",
+          "notes": "First release. Curve tuned against twenty thousand simulated descents."
         }
       ]
     }
