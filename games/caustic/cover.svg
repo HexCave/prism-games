@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <filter id="g" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="480" height="270" fill="#060a14"/>
+  <rect x="24" y="24" width="432" height="222" fill="#0b1120" stroke="#94a3b8" stroke-opacity="0.28" stroke-width="2"/>
+  <polygon points="150,80 236,120 196,196 122,166" fill="#2f7fd4" fill-opacity="0.22" stroke="#2f7fd4" stroke-width="2"/>
+  <polygon points="268,60 336,84 320,140 262,126" fill="#f472b6" fill-opacity="0.2" stroke="#f472b6" stroke-width="2"/>
+  <circle cx="330" cy="188" r="20" fill="#1c2436" stroke="#94a3b8" stroke-opacity="0.35" stroke-width="2"/>
+  <g fill="none" stroke-width="2.5" filter="url(#g)">
+    <path d="M62 140 150 104 232 128 268 96" stroke="#f4f8ff" stroke-opacity="0.9"/>
+    <path d="M268 96 322 118 396 76" stroke="#ff5566" stroke-opacity="0.9"/>
+    <path d="M268 96 326 132 400 122" stroke="#3ddc84" stroke-opacity="0.9"/>
+    <path d="M268 96 330 146 404 170" stroke="#4da3ff" stroke-opacity="0.9"/>
+  </g>
+  <g fill="none" stroke-width="3">
+    <circle cx="404" cy="72" r="14" stroke="#ff5566"/>
+    <circle cx="412" cy="122" r="14" stroke="#3ddc84"/>
+    <circle cx="410" cy="176" r="14" stroke="#4da3ff"/>
+  </g>
+  <circle cx="62" cy="140" r="8" fill="#f4f8ff" filter="url(#g)"/>
+</svg>

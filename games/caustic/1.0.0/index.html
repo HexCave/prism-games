@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Caustic</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="left"><span id="hole">Hole 1</span><span id="mode-label">of 60</span></div>
+    <div class="right">
+      <span id="strokes">0</span>
+      <span id="par">par 1</span>
+    </div>
+  </header>
+
+  <footer class="foot">
+    <button id="retry" class="ghost" type="button">Retry</button>
+    <button id="mode" class="ghost" type="button">Daily hole</button>
+    <span class="hint" id="hint">Drag back from the ball to aim</span>
+  </footer>
+
+  <div class="banner" id="banner" hidden>
+    <h1 id="banner-title"></h1>
+    <p id="banner-text"></p>
+    <div class="actions" id="banner-actions"></div>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
