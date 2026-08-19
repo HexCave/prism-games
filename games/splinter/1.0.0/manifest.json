@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "splinter",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T23:10:21.410Z",
+  "totalBytes": 24849,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1356,
+      "sha256": "ac865ee7e59f806e374dd79b3cf797aebd5057b97e39f530e44f39f4e1516350"
+    },
+    {
+      "path": "main.js",
+      "bytes": 13700,
+      "sha256": "71fa8362f12df1fbff500b6a10e7998eb2ab90898d76771b0778d550323d2b76"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3525,
+      "sha256": "1fcfd742d665761cf5b1dfb216411614a19d508c9aa46022d505e2ecb5f3a7b3"
+    }
+  ]
+}
