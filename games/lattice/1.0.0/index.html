@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Lattice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="left"><span id="map-name">First light</span><span id="wave">Wave 1 of 3</span></div>
+    <div class="right">
+      <span id="lives" class="lives"></span>
+      <span id="budget">4 optics left</span>
+    </div>
+  </header>
+
+  <footer class="tray" id="tray"></footer>
+  <div class="controls">
+    <button id="go" type="button">Send the wave</button>
+    <button id="maps" class="ghost" type="button">Maps</button>
+  </div>
+
+  <div class="sheet" id="sheet" hidden>
+    <h2>Maps</h2>
+    <div class="map-grid" id="map-grid"></div>
+    <button id="sheet-close" class="ghost" type="button">Close</button>
+  </div>
+
+  <div class="banner" id="banner" hidden>
+    <h1 id="banner-title"></h1>
+    <p id="banner-text"></p>
+    <div class="actions" id="banner-actions"></div>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

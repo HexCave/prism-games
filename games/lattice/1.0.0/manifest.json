@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "lattice",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T23:16:21.605Z",
+  "totalBytes": 24561,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1183,
+      "sha256": "35a966477c2530f114bf044a5863b5ed84ade3dd14a0a22f7d24f8bc2a08b841"
+    },
+    {
+      "path": "main.js",
+      "bytes": 13869,
+      "sha256": "ac19fcba544a7ac7337d54c7f6d55b9a5a6727a21a1e02ae52b4d4ae25550d14"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3241,
+      "sha256": "7b73187255df907a1d36fa165027f96ce18b83d6dc01b66c698f99a2fa337c8c"
+    }
+  ]
+}
