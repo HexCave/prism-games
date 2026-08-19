@@ -1,0 +1,25 @@
+{
+  "id": "cinder",
+  "title": "Cinder",
+  "tagline": "You are one ember, and you are going out.",
+  "description": "You fall through a burning canopy with only as much life as you have heat, and heat is spent just by existing. Everything green you touch catches and gives some back; catch several in a row and it gives back more. The rain does not care. Steer with momentum, read the wind, and see how far down you get before the light goes out.",
+  "category": "arcade",
+  "tags": [
+    "highscore",
+    "reflex",
+    "keyboard",
+    "particles"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Arrow keys or A / D to steer",
+    "Space to flare (costs heat)"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T21:51:58.676Z",
+      "notes": "First release."
+    }
+  }
+}

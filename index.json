@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T21:47:58.479Z",
+  "generatedAt": "2026-08-19T21:51:58.687Z",
   "host": "play.html",
   "categories": [
     {
       "id": "arcade",
       "label": "Arcade",
-      "count": 1
+      "count": 2
     },
     {
       "id": "puzzle",
@@ -35,6 +35,39 @@
     }
   ],
   "games": [
+    {
+      "id": "cinder",
+      "title": "Cinder",
+      "tagline": "You are one ember, and you are going out.",
+      "description": "You fall through a burning canopy with only as much life as you have heat, and heat is spent just by existing. Everything green you touch catches and gives some back; catch several in a row and it gives back more. The rain does not care. Steer with momentum, read the wind, and see how far down you get before the light goes out.",
+      "category": "arcade",
+      "tags": [
+        "highscore",
+        "reflex",
+        "keyboard",
+        "particles"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Arrow keys or A / D to steer",
+        "Space to flare (costs heat)"
+      ],
+      "cover": "games/cinder/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T21:51:58.676Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/cinder/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 27132,
+          "files": 6,
+          "releasedAt": "2026-08-19T21:51:58.676Z",
+          "notes": "First release."
+        }
+      ]
+    },
     {
       "id": "hex-drift",
       "title": "Hex Drift",
