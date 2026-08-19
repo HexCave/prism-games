@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "prism-breaker",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T19:46:43.427Z",
+  "totalBytes": 12240,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 851,
+      "sha256": "ada4d9a44f2ae13a1f0bbc5a30b48a57dbb5d3a2fddec3d11b68632750f1f520"
+    },
+    {
+      "path": "main.js",
+      "bytes": 5368,
+      "sha256": "0e9e07ff752d8ceabbec25e8af455adc896c09c0b1aef29e4114531a70848522"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 4180,
+      "sha256": "565721ed848006b7c97a323fe1c1c8c9a4c1cd5664051f2b80f5a90a96d466aa"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1841,
+      "sha256": "b0491878e52266350767e6ce9291a998ee9faf80fd12b3a6f8f5a8ea8c8e42b6"
+    }
+  ]
+}

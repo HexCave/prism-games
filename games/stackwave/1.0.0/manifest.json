@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "stackwave",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T19:46:43.781Z",
+  "totalBytes": 489949,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 752,
+      "sha256": "68eec083aaa20f3e6d30936a313e697ccf895c8647c9fec28a360762f3f7bd96"
+    },
+    {
+      "path": "main.js",
+      "bytes": 483145,
+      "sha256": "d0aafb65a51216157b1bd622b556caaebcd475278f5c3ebbc9b23df3841e7337"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 4180,
+      "sha256": "565721ed848006b7c97a323fe1c1c8c9a4c1cd5664051f2b80f5a90a96d466aa"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1872,
+      "sha256": "cf286dc3150d2843c8d8315f16e20700c38845034ee4f6764ba3e6afc22ce91d"
+    }
+  ]
+}

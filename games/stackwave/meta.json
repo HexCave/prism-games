@@ -1,0 +1,25 @@
+{
+  "id": "stackwave",
+  "title": "Stackwave",
+  "tagline": "Every slab you misjudge, you lose forever.",
+  "description": "Slabs sweep across the tower; drop each one where it overlaps the last. What hangs over the edge is sheared off and falls, so the tower narrows until a single mistake ends it. Land one dead centre and you get the width back.",
+  "category": "puzzle",
+  "tags": [
+    "3d",
+    "webgl",
+    "timing",
+    "highscore"
+  ],
+  "dimension": "3d",
+  "author": "HexCave",
+  "controls": [
+    "Space, click or tap to drop",
+    "Any key to restart"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T19:40:43.712Z",
+      "notes": "First release."
+    }
+  }
+}

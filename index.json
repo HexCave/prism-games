@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-19T19:46:43.791Z",
+  "host": "play.html",
+  "categories": [
+    {
+      "id": "arcade",
+      "label": "Arcade",
+      "count": 1
+    },
+    {
+      "id": "puzzle",
+      "label": "Puzzle",
+      "count": 1
+    },
+    {
+      "id": "action",
+      "label": "Action",
+      "count": 1
+    },
+    {
+      "id": "racing",
+      "label": "Racing",
+      "count": 1
+    }
+  ],
+  "games": [
+    {
+      "id": "hex-drift",
+      "title": "Hex Drift",
+      "tagline": "A six-sided tunnel at terminal velocity.",
+      "description": "You are falling down a hexagonal shaft that keeps closing in. Roll the tunnel so the open face lines up before you reach it — and it keeps getting faster. WebGL, sixty frames a second, one very unforgiving corridor.",
+      "category": "racing",
+      "tags": [
+        "3d",
+        "webgl",
+        "endless",
+        "highscore"
+      ],
+      "dimension": "3d",
+      "author": "HexCave",
+      "controls": [
+        "Arrow keys or A / D to roll",
+        "Space to start and pause"
+      ],
+      "cover": "games/hex-drift/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T19:40:43.543Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/hex-drift/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 498625,
+          "files": 4,
+          "releasedAt": "2026-08-19T19:40:43.543Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "neon-snake",
+      "title": "Neon Snake",
+      "tagline": "Eat the light. Don't eat yourself.",
+      "description": "The arcade classic with a hard edge: the grid speeds up with every pellet, and the walls wrap straight into your own tail. Every fourth pellet drops a gold one worth three points — it expires, so it is always a gamble. Your best run is kept between sessions.",
+      "category": "arcade",
+      "tags": [
+        "singleplayer",
+        "highscore",
+        "keyboard",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Arrow keys or WASD",
+        "Swipe on touch",
+        "Space to pause"
+      ],
+      "cover": "games/neon-snake/cover.svg",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-19T19:41:38.439Z",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/neon-snake/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 10608,
+          "files": 4,
+          "releasedAt": "2026-08-19T19:41:38.439Z",
+          "notes": "Gold pellets: worth three points, gone in six seconds."
+        },
+        {
+          "version": "1.0.0",
+          "path": "games/neon-snake/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 10243,
+          "files": 4,
+          "releasedAt": "2026-08-19T19:40:43.301Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "prism-breaker",
+      "title": "Prism Breaker",
+      "tagline": "Twelve levels of light, one paddle between them.",
+      "description": "A brick breaker with weight: the ball takes english off the paddle, bricks come in three densities, and every level you clear is remembered so you can pick the run back up where you left it.",
+      "category": "action",
+      "tags": [
+        "singleplayer",
+        "levels",
+        "keyboard",
+        "mouse"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Move the mouse, or arrow keys / A-D",
+        "Space to launch and pause"
+      ],
+      "cover": "games/prism-breaker/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T19:40:43.377Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/prism-breaker/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 12240,
+          "files": 4,
+          "releasedAt": "2026-08-19T19:40:43.377Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "stackwave",
+      "title": "Stackwave",
+      "tagline": "Every slab you misjudge, you lose forever.",
+      "description": "Slabs sweep across the tower; drop each one where it overlaps the last. What hangs over the edge is sheared off and falls, so the tower narrows until a single mistake ends it. Land one dead centre and you get the width back.",
+      "category": "puzzle",
+      "tags": [
+        "3d",
+        "webgl",
+        "timing",
+        "highscore"
+      ],
+      "dimension": "3d",
+      "author": "HexCave",
+      "controls": [
+        "Space, click or tap to drop",
+        "Any key to restart"
+      ],
+      "cover": "games/stackwave/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T19:40:43.712Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/stackwave/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 489949,
+          "files": 4,
+          "releasedAt": "2026-08-19T19:40:43.712Z",
+          "notes": "First release."
+        }
+      ]
+    }
+  ]
+}

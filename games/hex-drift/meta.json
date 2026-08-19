@@ -1,0 +1,25 @@
+{
+  "id": "hex-drift",
+  "title": "Hex Drift",
+  "tagline": "A six-sided tunnel at terminal velocity.",
+  "description": "You are falling down a hexagonal shaft that keeps closing in. Roll the tunnel so the open face lines up before you reach it — and it keeps getting faster. WebGL, sixty frames a second, one very unforgiving corridor.",
+  "category": "racing",
+  "tags": [
+    "3d",
+    "webgl",
+    "endless",
+    "highscore"
+  ],
+  "dimension": "3d",
+  "author": "HexCave",
+  "controls": [
+    "Arrow keys or A / D to roll",
+    "Space to start and pause"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T19:40:43.543Z",
+      "notes": "First release."
+    }
+  }
+}

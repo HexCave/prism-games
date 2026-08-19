@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#12203a"/><stop offset="1" stop-color="#04050a"/>
+    </radialGradient>
+    <filter id="g" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="480" height="270" fill="url(#bg)"/>
+  <g fill="none" stroke-linejoin="round" filter="url(#g)" transform="translate(240 135)">
+    <polygon points="0,-118 102,-59 102,59 0,118 -102,59 -102,-59" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="3"/>
+    <polygon points="0,-84 73,-42 73,42 0,84 -73,42 -73,-42" stroke="#818cf8" stroke-opacity="0.5" stroke-width="3"/>
+    <polygon points="0,-56 48,-28 48,28 0,56 -48,28 -48,-28" stroke="#f472b6" stroke-opacity="0.7" stroke-width="3"/>
+    <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" stroke="#fbbf24" stroke-width="3"/>
+  </g>
+  <g transform="translate(240 205)" filter="url(#g)">
+    <polygon points="0,-13 10,9 -10,9" fill="#e7ebf3"/>
+  </g>
+</svg>

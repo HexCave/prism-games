@@ -1,0 +1,30 @@
+{
+  "id": "neon-snake",
+  "title": "Neon Snake",
+  "tagline": "Eat the light. Don't eat yourself.",
+  "description": "The arcade classic with a hard edge: the grid speeds up with every pellet, and the walls wrap straight into your own tail. Every fourth pellet drops a gold one worth three points — it expires, so it is always a gamble. Your best run is kept between sessions.",
+  "category": "arcade",
+  "tags": [
+    "singleplayer",
+    "highscore",
+    "keyboard",
+    "touch"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Arrow keys or WASD",
+    "Swipe on touch",
+    "Space to pause"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T19:40:43.301Z",
+      "notes": "First release."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-19T19:41:38.439Z",
+      "notes": "Gold pellets: worth three points, gone in six seconds."
+    }
+  }
+}

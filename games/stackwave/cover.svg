@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16203a"/><stop offset="1" stop-color="#0a0d18"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="270" fill="url(#bg)"/>
+  <g transform="translate(240 215)">
+    <g id="s">
+      <polygon points="-70,0 0,-34 70,0 0,34" fill="#34d399"/>
+      <polygon points="-70,0 0,34 0,52 -70,18" fill="#1f9d76"/>
+      <polygon points="70,0 0,34 0,52 70,18" fill="#25b88a"/>
+    </g>
+    <g transform="translate(0 -34) scale(0.92 0.92)">
+      <polygon points="-70,0 0,-34 70,0 0,34" fill="#38bdf8"/>
+      <polygon points="-70,0 0,34 0,52 -70,18" fill="#1f7fae"/>
+      <polygon points="70,0 0,34 0,52 70,18" fill="#2a9ccb"/>
+    </g>
+    <g transform="translate(8 -68) scale(0.84 0.84)">
+      <polygon points="-70,0 0,-34 70,0 0,34" fill="#818cf8"/>
+      <polygon points="-70,0 0,34 0,52 -70,18" fill="#5560c4"/>
+      <polygon points="70,0 0,34 0,52 70,18" fill="#6a74dd"/>
+    </g>
+    <g transform="translate(-6 -100) scale(0.74 0.74)">
+      <polygon points="-70,0 0,-34 70,0 0,34" fill="#a78bfa"/>
+      <polygon points="-70,0 0,34 0,52 -70,18" fill="#7a5fd0"/>
+      <polygon points="70,0 0,34 0,52 70,18" fill="#8d70e6"/>
+    </g>
+    <g transform="translate(44 -128) scale(0.66 0.66)" opacity="0.55">
+      <polygon points="-70,0 0,-34 70,0 0,34" fill="#f472b6"/>
+    </g>
+  </g>
+</svg>

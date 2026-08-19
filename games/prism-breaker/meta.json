@@ -1,0 +1,25 @@
+{
+  "id": "prism-breaker",
+  "title": "Prism Breaker",
+  "tagline": "Twelve levels of light, one paddle between them.",
+  "description": "A brick breaker with weight: the ball takes english off the paddle, bricks come in three densities, and every level you clear is remembered so you can pick the run back up where you left it.",
+  "category": "action",
+  "tags": [
+    "singleplayer",
+    "levels",
+    "keyboard",
+    "mouse"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Move the mouse, or arrow keys / A-D",
+    "Space to launch and pause"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T19:40:43.377Z",
+      "notes": "First release."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141024"/><stop offset="1" stop-color="#080910"/>
+    </linearGradient>
+    <filter id="g" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="480" height="270" fill="url(#bg)"/>
+  <g filter="url(#g)">
+    <rect x="42"  y="40" width="62" height="20" rx="4" fill="#f472b6"/>
+    <rect x="112" y="40" width="62" height="20" rx="4" fill="#fb7185"/>
+    <rect x="182" y="40" width="62" height="20" rx="4" fill="#fbbf24"/>
+    <rect x="252" y="40" width="62" height="20" rx="4" fill="#a3e635"/>
+    <rect x="322" y="40" width="62" height="20" rx="4" fill="#34d399"/>
+    <rect x="42"  y="70" width="62" height="20" rx="4" fill="#fb7185" opacity="0.75"/>
+    <rect x="182" y="70" width="62" height="20" rx="4" fill="#a3e635" opacity="0.75"/>
+    <rect x="252" y="70" width="62" height="20" rx="4" fill="#38bdf8" opacity="0.75"/>
+    <rect x="392" y="70" width="62" height="20" rx="4" fill="#818cf8" opacity="0.75"/>
+  </g>
+  <path d="M300 210 L232 140" stroke="#fde68a" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="7 9"/>
+  <circle cx="232" cy="140" r="9" fill="#fde68a" filter="url(#g)"/>
+  <rect x="252" y="214" width="112" height="13" rx="6" fill="#e7ebf3" filter="url(#g)"/>
+</svg>
