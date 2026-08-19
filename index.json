@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T21:43:36.119Z",
+  "generatedAt": "2026-08-19T21:47:58.479Z",
   "host": "play.html",
   "categories": [
     {
@@ -16,7 +16,7 @@
     {
       "id": "action",
       "label": "Action",
-      "count": 1
+      "count": 2
     },
     {
       "id": "racing",
@@ -174,6 +174,40 @@
           "totalBytes": 12240,
           "files": 4,
           "releasedAt": "2026-08-19T19:40:43.377Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "signal-lost",
+      "title": "Signal Lost",
+      "tagline": "The ping is the only way to see. It is also how they find you.",
+      "description": "You are somewhere inside a dark structure with a sonar and no map. Each ping throws out a ring that paints the walls it touches and flashes anything alive back at you — and every ping tells the things in here exactly where you are. Find the way out, one careful pulse at a time, and go one level deeper.",
+      "category": "action",
+      "tags": [
+        "stealth",
+        "maze",
+        "keyboard",
+        "tense"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "WASD or arrow keys to move",
+        "Space to ping",
+        "Shift to move quietly"
+      ],
+      "cover": "games/signal-lost/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T21:47:58.468Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/signal-lost/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 13467,
+          "files": 4,
+          "releasedAt": "2026-08-19T21:47:58.468Z",
           "notes": "First release."
         }
       ]

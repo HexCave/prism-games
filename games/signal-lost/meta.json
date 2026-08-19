@@ -1,0 +1,26 @@
+{
+  "id": "signal-lost",
+  "title": "Signal Lost",
+  "tagline": "The ping is the only way to see. It is also how they find you.",
+  "description": "You are somewhere inside a dark structure with a sonar and no map. Each ping throws out a ring that paints the walls it touches and flashes anything alive back at you — and every ping tells the things in here exactly where you are. Find the way out, one careful pulse at a time, and go one level deeper.",
+  "category": "action",
+  "tags": [
+    "stealth",
+    "maze",
+    "keyboard",
+    "tense"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "WASD or arrow keys to move",
+    "Space to ping",
+    "Shift to move quietly"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T21:47:58.468Z",
+      "notes": "First release."
+    }
+  }
+}

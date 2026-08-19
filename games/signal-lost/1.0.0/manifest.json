@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "signal-lost",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T21:47:58.467Z",
+  "totalBytes": 13467,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 778,
+      "sha256": "3169d7ccbe064133fd4479ee4179018b6aef6e207ab2841ad63bdb8994f97f77"
+    },
+    {
+      "path": "main.js",
+      "bytes": 6840,
+      "sha256": "9ef80a30c6b5a216da53503814a91bf8c7ed615d00b2fa3171a096c453a96cb9"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 4180,
+      "sha256": "565721ed848006b7c97a323fe1c1c8c9a4c1cd5664051f2b80f5a90a96d466aa"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1669,
+      "sha256": "76254a8d5c42f2517169a0300eb1962a2421d5f5424a9b6c4184328020cc271a"
+    }
+  ]
+}
