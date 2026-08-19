@@ -1,0 +1,26 @@
+{
+  "id": "orbital",
+  "title": "Orbital",
+  "tagline": "One burn. After that it is just gravity.",
+  "description": "Twelve launches, each with exactly one decision: which way to point and how hard to push. After that the probe belongs to the planets, and the only way to reach the ring is to fall past something heavy at the right distance. The line you aim with is the real trajectory, computed the same way the flight is — so if the preview reaches, the probe reaches.",
+  "category": "puzzle",
+  "tags": [
+    "3d",
+    "webgl",
+    "physics",
+    "levels"
+  ],
+  "dimension": "3d",
+  "author": "HexCave",
+  "controls": [
+    "Move the mouse to aim",
+    "Hold to charge, release to launch",
+    "Arrow keys also aim; R retries"
+  ],
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-19T22:02:43.406Z",
+      "notes": "First release. Twelve launches."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T21:57:47.144Z",
+  "generatedAt": "2026-08-19T22:02:43.421Z",
   "host": "play.html",
   "categories": [
     {
@@ -11,7 +11,7 @@
     {
       "id": "puzzle",
       "label": "Puzzle",
-      "count": 2
+      "count": 3
     },
     {
       "id": "action",
@@ -175,6 +175,40 @@
           "files": 4,
           "releasedAt": "2026-08-19T19:40:43.301Z",
           "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "orbital",
+      "title": "Orbital",
+      "tagline": "One burn. After that it is just gravity.",
+      "description": "Twelve launches, each with exactly one decision: which way to point and how hard to push. After that the probe belongs to the planets, and the only way to reach the ring is to fall past something heavy at the right distance. The line you aim with is the real trajectory, computed the same way the flight is — so if the preview reaches, the probe reaches.",
+      "category": "puzzle",
+      "tags": [
+        "3d",
+        "webgl",
+        "physics",
+        "levels"
+      ],
+      "dimension": "3d",
+      "author": "HexCave",
+      "controls": [
+        "Move the mouse to aim",
+        "Hold to charge, release to launch",
+        "Arrow keys also aim; R retries"
+      ],
+      "cover": "games/orbital/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T22:02:43.406Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/orbital/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 503903,
+          "files": 4,
+          "releasedAt": "2026-08-19T22:02:43.406Z",
+          "notes": "First release. Twelve launches."
         }
       ]
     },
