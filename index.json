@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T21:51:58.687Z",
+  "generatedAt": "2026-08-19T21:57:47.144Z",
   "host": "play.html",
   "categories": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "rhythm",
       "label": "Rhythm",
-      "count": 0
+      "count": 1
     }
   ],
   "games": [
@@ -208,6 +208,40 @@
           "files": 4,
           "releasedAt": "2026-08-19T19:40:43.377Z",
           "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "pulse",
+      "title": "Pulse",
+      "tagline": "Four lanes, three tracks, no forgiveness.",
+      "description": "A rhythm game with its own music. Three tracks were written for it — an arpeggio-driven chase, a slower one in the rain, and something faster than either — and the charts were cut from the same notes you hear, so what falls down the lane is exactly what is playing. Hit early or late and it will tell you which. Your best score and accuracy are kept for each track.",
+      "category": "rhythm",
+      "tags": [
+        "music",
+        "timing",
+        "keyboard",
+        "highscore"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "D F J K, or the arrow keys",
+        "Space to start",
+        "Esc to pick another track"
+      ],
+      "cover": "games/pulse/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-19T21:57:47.131Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/pulse/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 3125170,
+          "files": 11,
+          "releasedAt": "2026-08-19T21:57:47.131Z",
+          "notes": "First release. Three original tracks."
         }
       ]
     },

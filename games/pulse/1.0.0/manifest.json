@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "pulse",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-19T21:57:47.130Z",
+  "totalBytes": 3125170,
+  "files": [
+    {
+      "path": "assets/afterburn.json",
+      "bytes": 5886,
+      "sha256": "2d12e25ad95dd36311d8f25133efe741c94a90de7027d78a3475d6c48c6fd825"
+    },
+    {
+      "path": "assets/afterburn.ogg",
+      "bytes": 1001763,
+      "sha256": "eac175c923bb73e3cc2411c2b4ab992d25deef28bef6c5b614e2ed1cc56e0880"
+    },
+    {
+      "path": "assets/ember-drive.json",
+      "bytes": 5013,
+      "sha256": "64edd20662537ddfaf6dfb1753f0dadeb7330d4dccd0477ddf890eede5150f70"
+    },
+    {
+      "path": "assets/ember-drive.ogg",
+      "bytes": 1051023,
+      "sha256": "707e35f192afbe382aeeeac15b7da84213db8f2ae6e10c614d5642bd7590f71b"
+    },
+    {
+      "path": "assets/glass-rain.json",
+      "bytes": 4086,
+      "sha256": "7ef476757e2c10a0d4ab4c07c060d05e40e0c2a7343e785af043d74ad9d441f3"
+    },
+    {
+      "path": "assets/glass-rain.ogg",
+      "bytes": 1040996,
+      "sha256": "cf5c95f89284348ee8cf6ec15601d8634f4c4c0cbd2f6b8631676697e9ab424c"
+    },
+    {
+      "path": "assets/songs.json",
+      "bytes": 456,
+      "sha256": "9b860dc7fac57e32e3b85e73e5b24f2796d3a137213a37814528b622a368c3bc"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1273,
+      "sha256": "36f9dc178d9aff87c65952634b0a262b8c27a9cb30ec25cae13e36dd0b6c3378"
+    },
+    {
+      "path": "main.js",
+      "bytes": 7334,
+      "sha256": "667f7697bee9c3ef1f68ec975ae7c5afa41bf19381a8202a04351c5387621110"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 4180,
+      "sha256": "565721ed848006b7c97a323fe1c1c8c9a4c1cd5664051f2b80f5a90a96d466aa"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3160,
+      "sha256": "aa7a744967a0811e011aa495f3ae0fd524330beccfe730548a3cf000178b4234"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ember-drive",
+    "title": "Ember Drive",
+    "bpm": 128,
+    "seconds": 77,
+    "notes": 220,
+    "file": "assets/ember-drive.ogg"
+  },
+  {
+    "id": "glass-rain",
+    "title": "Glass Rain",
+    "bpm": 112,
+    "seconds": 79.14,
+    "notes": 179,
+    "file": "assets/glass-rain.ogg"
+  },
+  {
+    "id": "afterburn",
+    "title": "Afterburn",
+    "bpm": 146,
+    "seconds": 74.33,
+    "notes": 257,
+    "file": "assets/afterburn.ogg"
+  }
+]
