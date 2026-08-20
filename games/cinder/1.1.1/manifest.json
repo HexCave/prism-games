@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "cinder",
+  "version": "1.1.1",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:29:13.990Z",
+  "totalBytes": 33819,
+  "files": [
+    {
+      "path": "assets/atlas.json",
+      "bytes": 547,
+      "sha256": "0b08b9bd01de788fba3692938e685e42b9e3af6dd8c64ceea2aab473440c34e1"
+    },
+    {
+      "path": "assets/atlas.png",
+      "bytes": 13279,
+      "sha256": "0bc17ad789eca535b62c957f3b7500fe39a8eecdc84cf4493e327377b8b0b6d8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 899,
+      "sha256": "d4f440648516f33a7afa94ecc546c1527aec97696ed6ae18bbbbb01b07939ccf"
+    },
+    {
+      "path": "main.js",
+      "bytes": 10877,
+      "sha256": "0f8a1a10cbff0cfeed547ecccfa3f8f15de6c5e8319657d0e8dab6d89ee3d043"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1949,
+      "sha256": "a9e8175d33adbcd42e5cf71fc809395ad111823912c55c72e30c424c97aeef57"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cinder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <header class="hud">
+    <div class="left">
+      <span id="score">0</span>
+      <span id="depth">0 m</span>
+    </div>
+    <div class="right">
+      <span id="combo" class="combo"></span>
+      <span id="best">best 0</span>
+    </div>
+  </header>
+  <div class="heat"><i id="heat-fill"></i></div>
+  <div class="overlay" id="overlay">
+    <h1 id="overlay-title">Cinder</h1>
+    <p id="overlay-text">Steer with the arrow keys. Catch the green, keep the heat, stay away from the rain.</p>
+    <button id="start" type="button">Fall</button>
+  </div>
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

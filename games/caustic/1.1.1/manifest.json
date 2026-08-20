@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "caustic",
+  "version": "1.1.1",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:29:13.724Z",
+  "totalBytes": 65210,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1010,
+      "sha256": "cba569777391010126b91abffbc153b49421e43a60585ffc91a036930796296c"
+    },
+    {
+      "path": "main.js",
+      "bytes": 55820,
+      "sha256": "4bfdc01ef7c16ff64f89fd0a0d4a291ef8977ebea2c625edc21eb88765c9547a"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2112,
+      "sha256": "2df509de32314d8f32c532dbdbcbd95a7eb1d2e80976b519430aec6c270ca7c8"
+    }
+  ]
+}

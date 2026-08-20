@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prism Breaker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <header class="hud">
+    <span id="level">Level 1</span>
+    <span id="lives" class="lives"></span>
+    <span id="score">0</span>
+  </header>
+  <div class="overlay" id="overlay">
+    <h1 id="overlay-title">Prism Breaker</h1>
+    <p id="overlay-text">Clear every brick. The ball follows the paddle's motion.</p>
+    <div class="actions">
+      <button id="start" type="button">Play</button>
+      <button id="restart" class="ghost" type="button" hidden>Start over</button>
+    </div>
+  </div>
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "lumen",
+  "version": "1.1.1",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:29:15.104Z",
+  "totalBytes": 29105,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1353,
+      "sha256": "f6b8242f8980010b0369a05aab691e2c4afd436622f6d932ded0b75a15d1e883"
+    },
+    {
+      "path": "main.js",
+      "bytes": 18350,
+      "sha256": "8e99006d63ab3d22c72e4aaff35c8a10ee6049aafe68bec3844fade551d51a42"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3134,
+      "sha256": "2ad4ff4b52a78544b6d308a48e97989c8260d5a09e971b1c6ad415e0b6d25439"
+    }
+  ]
+}

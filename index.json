@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T08:24:22.078Z",
+  "generatedAt": "2026-08-20T08:29:16.509Z",
   "host": "play.html",
   "categories": [
     {
@@ -65,9 +65,18 @@
       ],
       "goal": "Grow the tree, then prestige to make the next one grow faster. There is no losing, only how far you have got.",
       "cover": "games/cascade/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:19.097Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:13.616Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/cascade/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 22297,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:13.616Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/cascade/1.1.0",
@@ -114,9 +123,18 @@
       ],
       "goal": "Sink every cup on each of the sixty holes, in as few strokes as you can. Par is the proved best for that hole.",
       "cover": "games/caustic/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:19.237Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:13.726Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/caustic/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 65210,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:13.726Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/caustic/1.1.0",
@@ -163,9 +181,18 @@
       ],
       "goal": "Score as much as you can before the grid fills. Chains are where the points are — a merge that triggers another is worth far more than two separate ones.",
       "cover": "games/chroma/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:19.363Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:13.857Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/chroma/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 25405,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:13.857Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/chroma/1.1.0",
@@ -211,9 +238,18 @@
       ],
       "goal": "Fall as far as you can before your heat runs out. Points and distance both count towards your best.",
       "cover": "games/cinder/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:19.510Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:13.991Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/cinder/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 33819,
+          "files": 6,
+          "releasedAt": "2026-08-20T08:29:13.991Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/cinder/1.1.0",
@@ -260,9 +296,18 @@
       ],
       "goal": "Reach the sixth floor and kill what is down there. Everything you earn on the way is kept even when you die.",
       "cover": "games/deep-six/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:19.666Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:14.103Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/deep-six/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 24304,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:14.103Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/deep-six/1.1.0",
@@ -309,9 +354,18 @@
       ],
       "goal": "Light all sixteen panels in three shots. Fewer shots is better; every board here has been proved clearable.",
       "cover": "games/facet/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:19.798Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:14.230Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/facet/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 38645,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:14.230Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/facet/1.1.0",
@@ -358,9 +412,18 @@
       ],
       "goal": "Keep the network moving as the map grows. Crates delivered is the score, and your best is kept.",
       "cover": "games/freight/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:19.919Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:14.348Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/freight/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 20896,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:14.348Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/freight/1.1.0",
@@ -406,9 +469,18 @@
       ],
       "goal": "Get as far down the shaft as you can. Distance is the score, and your best is kept.",
       "cover": "games/hex-drift/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:20.160Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:14.589Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/hex-drift/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 505113,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:14.589Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/hex-drift/1.1.0",
@@ -455,9 +527,18 @@
       ],
       "goal": "Fly the canyon as fast as you can. Your best run is saved as a ghost and flies it again beside you.",
       "cover": "games/kite/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:20.420Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:14.823Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/kite/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 502510,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:14.823Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/kite/1.1.0",
@@ -504,9 +585,18 @@
       ],
       "goal": "Stop every wave before it reaches the far end. You have a fixed budget of optics per map and no way to buy more damage.",
       "cover": "games/lattice/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:20.581Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:14.989Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/lattice/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 29295,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:14.989Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/lattice/1.1.0",
@@ -553,9 +643,18 @@
       ],
       "goal": "Light every receptor with exactly the colour it is asking for. All eighteen puzzles have been proved solvable.",
       "cover": "games/lumen/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:20.711Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:15.106Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/lumen/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 29105,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:15.106Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/lumen/1.1.0",
@@ -602,9 +701,18 @@
       ],
       "goal": "Eat as many pellets as you can without running into your own tail. Your best run is kept.",
       "cover": "games/neon-snake/cover.svg",
-      "latest": "1.2.0",
-      "updatedAt": "2026-08-20T08:24:20.832Z",
+      "latest": "1.2.1",
+      "updatedAt": "2026-08-20T08:29:15.241Z",
       "versions": [
+        {
+          "version": "1.2.1",
+          "path": "games/neon-snake/1.2.1",
+          "entry": "index.html",
+          "totalBytes": 17218,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:15.241Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.2.0",
           "path": "games/neon-snake/1.2.0",
@@ -660,9 +768,18 @@
       ],
       "goal": "Put the probe through the ring on each of the twelve launches. Every level has been proved reachable.",
       "cover": "games/orbital/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:21.047Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:15.516Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/orbital/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 510483,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:15.516Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/orbital/1.1.0",
@@ -708,9 +825,18 @@
       ],
       "goal": "Clear all twelve levels. Every level you reach is unlocked permanently, so you can pick the run back up later.",
       "cover": "games/prism-breaker/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:21.204Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:15.687Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/prism-breaker/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 18872,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:15.687Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/prism-breaker/1.1.0",
@@ -757,9 +883,18 @@
       ],
       "goal": "Hit every note. Score and accuracy are kept separately for each of the three tracks.",
       "cover": "games/pulse/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:21.351Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:15.832Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/pulse/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 3131748,
+          "files": 11,
+          "releasedAt": "2026-08-20T08:29:15.832Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/pulse/1.1.0",
@@ -806,9 +941,18 @@
       ],
       "goal": "Find the way down on each level and go as deep as you can. Your deepest floor is kept.",
       "cover": "games/signal-lost/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:21.533Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:15.977Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/signal-lost/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 20077,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:15.977Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/signal-lost/1.1.0",
@@ -855,9 +999,18 @@
       ],
       "goal": "Survive as long as you can, and bank prisms for the run after this one.",
       "cover": "games/splinter/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:21.684Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:16.106Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/splinter/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 29302,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:16.106Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/splinter/1.1.0",
@@ -903,9 +1056,18 @@
       ],
       "goal": "Stack as many slabs as you can. Height is the score, and your best is kept.",
       "cover": "games/stackwave/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:21.911Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:16.349Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/stackwave/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 496426,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:16.349Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/stackwave/1.1.0",
@@ -951,9 +1113,18 @@
       ],
       "goal": "Bank as much light as you can. Banked light buys permanent lantern upgrades, and the daily descent gives everyone the same sequence of floors.",
       "cover": "games/umbra/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-20T08:24:22.059Z",
+      "latest": "1.1.1",
+      "updatedAt": "2026-08-20T08:29:16.481Z",
       "versions": [
+        {
+          "version": "1.1.1",
+          "path": "games/umbra/1.1.1",
+          "entry": "index.html",
+          "totalBytes": 25593,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:29:16.481Z",
+          "notes": "Hints keep clear of each game’s own controls."
+        },
         {
           "version": "1.1.0",
           "path": "games/umbra/1.1.0",

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "orbital",
+  "version": "1.1.1",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:29:15.514Z",
+  "totalBytes": 510483,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1168,
+      "sha256": "fbdb11e606188a55ea310d7c0667a475a018e9025cb2ea4d705915c62391876a"
+    },
+    {
+      "path": "main.js",
+      "bytes": 500351,
+      "sha256": "38be460a6e013543e825e0d10eae23ea86e3d4e8e82ceb3e6c8208a2406ef8d6"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2696,
+      "sha256": "e1da5abba2e49b15763a1c35cb20d07a27f05d7da0ecafa86bfe88d4e90c330b"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kite</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <header class="hud">
+    <div class="left"><span id="clock">0.00</span><span id="split"></span></div>
+    <div class="right">
+      <span id="best">no time yet</span>
+      <span id="speed">—</span>
+      <span id="altitude">—</span>
+    </div>
+  </header>
+  <div class="progress"><i id="progress-fill"></i></div>
+  <div class="overlay" id="overlay">
+    <h1 id="overlay-title">Kite</h1>
+    <p id="overlay-text">Pitch down to gain speed, up to hold height. The canyon is always the same one.</p>
+    <button id="start" type="button">Launch</button>
+  </div>
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

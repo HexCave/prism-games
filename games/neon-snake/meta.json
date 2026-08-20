@@ -35,6 +35,10 @@
     "1.2.0": {
       "releasedAt": "2026-08-20T08:24:20.832Z",
       "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+    },
+    "1.2.1": {
+      "releasedAt": "2026-08-20T08:29:15.241Z",
+      "notes": "Hints keep clear of each game’s own controls."
     }
   }
 }

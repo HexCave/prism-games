@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-six",
+  "version": "1.1.1",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:29:14.102Z",
+  "totalBytes": 24304,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1035,
+      "sha256": "f1eb6c21f65097f9360ce4359447850ba5653d60d9316bd7b93595e66682e35a"
+    },
+    {
+      "path": "main.js",
+      "bytes": 14722,
+      "sha256": "ea0dc85cb70a3a5b36db9e52781ff24ef2af117c8041c459f351c168d7ef9c89"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2279,
+      "sha256": "748cb7886dba84dfb22efbe8152de4a7da137c8d4ed5b346796bb1073994ac77"
+    }
+  ]
+}
