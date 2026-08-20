@@ -18,18 +18,19 @@
     "Arrow keys also aim; R retries"
   ],
   "howToPlay": [
-    "Move the mouse to aim. The dotted line is the actual trajectory, computed the same way the flight is — if the dots reach the ring, the probe will too.",
-    "Hold the mouse button, or space, to build power. Release to launch.",
-    "You get one burn. After that the probe belongs to the planets and you can only watch.",
-    "The dots bunch together where the probe is moving slowly, which is the clearest sign you are about to be captured by something.",
-    "Falling past a planet bends the path — most levels can only be reached by using that, not by aiming straight at the target.",
-    "Crashing or flying off into space costs you nothing but another attempt. Press R to reset the aim."
+    "Aim, charge, and launch. You get one burn per attempt.",
+    "After that the probe belongs to the planets.",
+    "Twelve launches, each proved reachable."
   ],
   "goal": "Put the probe through the ring on each of the twelve launches. Every level has been proved reachable.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T22:02:43.406Z",
       "notes": "First release. Twelve launches."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:21.047Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

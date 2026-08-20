@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "kite",
+  "version": "1.1.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:24:20.417Z",
+  "totalBytes": 502035,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 913,
+      "sha256": "780fdb032bd13da6a5ff4ab1b697470baa8a8aceb17fd76123cdc384dc2007c5"
+    },
+    {
+      "path": "main.js",
+      "bytes": 492929,
+      "sha256": "609f1c1fe863d529b5b85552c3511d667c4aa24bfe64341a858aed9a655f54c7"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1925,
+      "sha256": "270987aa6d256c9061b1ca559a2f7f8c4cd5a6ee55b976e60b7e63164500e55f"
+    }
+  ]
+}

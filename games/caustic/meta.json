@@ -18,18 +18,19 @@
     "R to retry the hole"
   ],
   "howToPlay": [
-    "Drag back from the ball and let go, like a slingshot. The direction you pull is the direction it will not go — it fires the opposite way.",
-    "How far you pull sets the power, which for light is not speed but distance: a weak shot fades out before it gets there.",
-    "The dotted preview only shows the path as far as the first surface. What happens after that is the puzzle.",
-    "Light bends towards the surface when it enters something denser, and away when it leaves. Steep angles bend less than shallow ones.",
-    "Hit a surface too shallowly from inside the glass and it reflects instead of leaving — that is total internal reflection, and some holes need it.",
-    "Pink glass is a prism: white light entering it comes apart into red, green and blue, and each colour only counts in the cup of its own colour."
+    "Drag back and let go. The ball is light, so glass bends it.",
+    "Pink glass splits white into three, each needing its own cup.",
+    "Sixty holes, every one proved sinkable."
   ],
   "goal": "Sink every cup on each of the sixty holes, in as few strokes as you can. Par is the proved best for that hole.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T22:53:30.024Z",
       "notes": "First release. Sixty holes, each proved sinkable."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:19.237Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

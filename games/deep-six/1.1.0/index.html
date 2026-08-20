@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deep Six</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud" id="hud" hidden>
+    <span class="floor" id="floor">Floor 1</span>
+    <span class="hearts" id="health"></span>
+    <span class="stat" id="gear"></span>
+    <span class="spacer"></span>
+    <span class="stat" id="potions"></span>
+    <span class="stat" id="echoes"></span>
+  </header>
+
+  <div class="log" id="log" hidden></div>
+
+  <div class="screen" id="screen">
+    <h1 id="screen-title">Deep Six</h1>
+    <p id="screen-text">Six floors. Bump into things to hit them. Everything takes its turn after you do.</p>
+    <div class="loadout" id="loadout"></div>
+    <button id="descend" type="button">Descend</button>
+    <p class="foot" id="foot"></p>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

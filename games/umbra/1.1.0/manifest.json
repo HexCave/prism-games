@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "umbra",
+  "version": "1.1.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:24:22.057Z",
+  "totalBytes": 25116,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1551,
+      "sha256": "628f5cc2e9cb744488b7c38dd2231fafaa983d836a18e4b36b06597ca38416ae"
+    },
+    {
+      "path": "main.js",
+      "bytes": 13581,
+      "sha256": "131914bdc96a33d5788ca1bf87f910fc3c41750f4030ccd9b42d612d4a73af76"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3716,
+      "sha256": "ecac0c26acda10004a60d5151f02873979e10bd2513301dfa7f75acc2f165414"
+    }
+  ]
+}

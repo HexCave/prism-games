@@ -17,18 +17,19 @@
     "Space to launch and pause"
   ],
   "howToPlay": [
-    "Move the paddle with the mouse, or with the arrow keys or A and D.",
-    "Press space or click to launch the ball, then keep it off the floor.",
-    "Where the ball hits the paddle decides where it goes: the edges send it out at a sharp angle, the centre sends it straight up.",
-    "Bricks come in three densities — the dimmer ones need more than one hit, and deeper rows are tougher.",
-    "Clearing every brick finishes the level and unlocks the next one. Losing all three balls sends you back to the start of the level you were on.",
-    "The ball speeds up slightly with each paddle hit, and each level launches it faster than the last."
+    "Move the paddle with the mouse or the arrow keys.",
+    "Where the ball hits the paddle decides where it goes.",
+    "Clear all twelve levels — each one you reach stays unlocked."
   ],
   "goal": "Clear all twelve levels. Every level you reach is unlocked permanently, so you can pick the run back up later.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T19:40:43.377Z",
       "notes": "First release."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:21.204Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Cascade</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="count"><span id="photons">0</span><small id="rate">1.0 / second</small></div>
+    <div class="right">
+      <span id="spectra"></span>
+      <span id="boost" class="boost"></span>
+    </div>
+  </header>
+
+  <footer class="shop" id="shop"></footer>
+
+  <div class="banner" id="banner" hidden>
+    <h1 id="banner-title"></h1>
+    <p id="banner-text"></p>
+    <div class="actions" id="banner-actions"></div>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

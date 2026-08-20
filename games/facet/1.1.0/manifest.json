@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "facet",
+  "version": "1.1.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:24:19.797Z",
+  "totalBytes": 38170,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1024,
+      "sha256": "2043c3909d76508851706404011a6acead59eac260fcbfb58f136bcc86dcb33d"
+    },
+    {
+      "path": "main.js",
+      "bytes": 28309,
+      "sha256": "2826faf38827008e8db098c121d4670416e10a8ded49cb71d44fdf04e776621d"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 2569,
+      "sha256": "7ddec0f5fd7751506bb601afffb3fe729b8ae500298d1dd9fe361f4ced38232b"
+    }
+  ]
+}

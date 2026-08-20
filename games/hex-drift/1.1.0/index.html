@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hex Drift</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <header class="hud">
+    <div><span id="distance">0</span><small>m</small></div>
+    <div class="right"><span id="best">best 0 m</span><span id="speed">—</span></div>
+  </header>
+  <div class="overlay" id="overlay">
+    <h1 id="overlay-title">Hex Drift</h1>
+    <p id="overlay-text">Roll the tunnel with the arrow keys so the gap lines up. It only gets faster.</p>
+    <button id="start" type="button">Drop in</button>
+  </div>
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

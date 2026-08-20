@@ -18,18 +18,19 @@
     "Esc to pick another track"
   ],
   "howToPlay": [
-    "Pick a track from the list. There is a short count-in before the first note.",
-    "Notes fall down four lanes. Hit them as they cross the line at the bottom with D, F, J and K — the arrow keys work too.",
-    "Land within a hair of the line for a Perfect; a little early or late is a Good, and it will tell you which way you were off.",
-    "Missing a note breaks your combo, and the combo is what multiplies your score.",
-    "Accuracy is shown live in the corner, so you can tell a sloppy full clear from a clean one.",
-    "Press escape at any point to go back and pick another track."
+    "Four lanes, three original tracks written for this game.",
+    "Hit each note as it crosses the line with D, F, J and K.",
+    "Score and accuracy are kept separately for every track."
   ],
   "goal": "Hit every note. Score and accuracy are kept separately for each of the three tracks.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T21:57:47.131Z",
       "notes": "First release. Three original tracks."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:21.351Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

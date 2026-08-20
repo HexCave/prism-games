@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T23:16:50.474Z",
+  "generatedAt": "2026-08-20T08:24:22.078Z",
   "host": "play.html",
   "categories": [
     {
@@ -59,18 +59,24 @@
         "Tap to buy"
       ],
       "howToPlay": [
-        "Buy a splitter. It branches the beam again and adds another stream, and every stream produces photons on its own.",
-        "Splitters get more expensive each time, so the other upgrades are what keep the curve moving: cleaner glass brightens every stream, a brighter source and a wider spectrum multiply everything.",
-        "Tap or click the tree itself for a small handful of photons whenever you like. It is never required.",
-        "Close the tab whenever you want. The tree keeps producing while you are away, up to eight hours' worth.",
-        "Once you have earned enough, prestige: the tree resets to nothing and you keep spectra, which permanently raise everything you produce from then on.",
-        "The first prestige takes about twenty minutes. After that they come faster and are worth more."
+        "Buy splitters. Each one branches the beam and adds a stream.",
+        "It keeps producing while the tab is closed, up to eight hours.",
+        "Fold the tree when the numbers get silly, and keep the spectrum."
       ],
       "goal": "Grow the tree, then prestige to make the next one grow faster. There is no losing, only how far you have got.",
       "cover": "games/cascade/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T23:04:42.682Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:19.097Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/cascade/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 21819,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:19.097Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/cascade/1.0.0",
@@ -102,18 +108,24 @@
         "R to retry the hole"
       ],
       "howToPlay": [
-        "Drag back from the ball and let go, like a slingshot. The direction you pull is the direction it will not go — it fires the opposite way.",
-        "How far you pull sets the power, which for light is not speed but distance: a weak shot fades out before it gets there.",
-        "The dotted preview only shows the path as far as the first surface. What happens after that is the puzzle.",
-        "Light bends towards the surface when it enters something denser, and away when it leaves. Steep angles bend less than shallow ones.",
-        "Hit a surface too shallowly from inside the glass and it reflects instead of leaving — that is total internal reflection, and some holes need it.",
-        "Pink glass is a prism: white light entering it comes apart into red, green and blue, and each colour only counts in the cup of its own colour."
+        "Drag back and let go. The ball is light, so glass bends it.",
+        "Pink glass splits white into three, each needing its own cup.",
+        "Sixty holes, every one proved sinkable."
       ],
       "goal": "Sink every cup on each of the sixty holes, in as few strokes as you can. Par is the proved best for that hole.",
       "cover": "games/caustic/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T22:53:30.024Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:19.237Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/caustic/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 64731,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:19.237Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/caustic/1.0.0",
@@ -145,18 +157,24 @@
         "Z to undo"
       ],
       "howToPlay": [
-        "Tap or click a column to drop the tile shown at the top. On a keyboard, keys 1 to 6 pick the column.",
-        "Two tiles touching side by side or one above the other merge if they share no colour: red and green become yellow, red and blue become magenta, yellow and blue become white.",
-        "Two tiles of the same colour never merge, so a board of nothing but red is a board in trouble.",
-        "Two whites side by side collapse into a prism, which clears its entire row.",
-        "Every merge drops what is above it, which can set off another merge — chains multiply the score.",
-        "Fill every column and the game ends. The daily board gives everyone the same tile order; endless is a fresh sequence every time."
+        "Drop tiles into columns. Colours that share nothing mix.",
+        "Red and green make yellow; two whites clear a row.",
+        "Same colours never merge, so a board of one colour is trouble."
       ],
       "goal": "Score as much as you can before the grid fills. Chains are where the points are — a merge that triggers another is worth far more than two separate ones.",
       "cover": "games/chroma/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T22:47:36.852Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:19.363Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/chroma/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 24928,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:19.363Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/chroma/1.0.0",
@@ -187,18 +205,24 @@
         "Space to flare (costs heat)"
       ],
       "howToPlay": [
-        "You are an ember falling through a burning canopy. Steer with the arrow keys or A and D — you carry momentum, so start turning early.",
-        "Your heat drains constantly, and when it hits zero you go out. The bar along the bottom is your life.",
-        "Touching anything green sets it alight: that scores points and gives some heat back. Twigs are worth more than leaves.",
-        "Catch several in a row without missing and the multiplier climbs, up to six times.",
-        "Water costs you a third of your heat. Wind bands push you sideways whether you like it or not.",
-        "Press space to flare: it widens your reach for half a second at the cost of some heat."
+        "Steer the ember with momentum, not precision.",
+        "Green things give heat back. Water takes a third of it.",
+        "Your heat is your life, and it drains on its own."
       ],
       "goal": "Fall as far as you can before your heat runs out. Points and distance both count towards your best.",
       "cover": "games/cinder/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T21:51:58.676Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:19.510Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/cinder/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 33341,
+          "files": 6,
+          "releasedAt": "2026-08-20T08:24:19.510Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/cinder/1.0.0",
@@ -230,18 +254,24 @@
         "Q to quaff a potion"
       ],
       "howToPlay": [
-        "Move with the arrow keys or WASD. It is turn-based: nothing moves until you do.",
-        "Walk into a monster to attack it. It will hit back, and so will anything else next to you.",
-        "You can only see what your lamp reaches, but everywhere you have been stays on the map.",
-        "Pink dots are potions — walk over one to pick it up, and press Q to drink. Gold dots are echo shards, which are worth something upstairs.",
-        "The green circle is the way down. Reaching it takes you to the next of six floors.",
-        "Death is permanent for that run, but you keep the echoes you earned. Spend them between runs on what you carry down next time."
+        "Turn-based: nothing moves until you do. Walk into things to attack.",
+        "Six floors down, and death ends the run for good.",
+        "The echoes you earned buy what you carry down next time."
       ],
       "goal": "Reach the sixth floor and kill what is down there. Everything you earn on the way is kept even when you die.",
       "cover": "games/deep-six/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T22:10:18.455Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:19.666Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/deep-six/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 23826,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:19.666Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/deep-six/1.0.0",
@@ -273,17 +303,24 @@
         "Tab switches daily and unlimited"
       ],
       "howToPlay": [
-        "Drag anywhere on the board to aim. The launch point snaps to the nearest point on the rim and a dotted line previews the first bounce.",
-        "Release to fire. The beam reflects off panels and the rim until it runs out, lighting every panel it touches.",
-        "Panels stay lit between shots, so plan the next shot around what is still dark.",
-        "You have three shots on the daily board. Clear it and your streak grows; come back tomorrow for a new one.",
-        "Unlimited mode gives you endless fresh boards — clear one to move straight to the next."
+        "Drag from the rim to aim, release to fire.",
+        "The beam ricochets, and every panel it grazes stays lit.",
+        "Three shots, and everyone gets the same board today."
       ],
       "goal": "Light all sixteen panels in three shots. Fewer shots is better; every board here has been proved clearable.",
       "cover": "games/facet/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T22:42:13.671Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:19.798Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/facet/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 38170,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:19.798Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/facet/1.0.0",
@@ -315,18 +352,24 @@
         "Space to pause"
       ],
       "howToPlay": [
-        "Each depot is a shape, and it makes crates of other shapes that need taking somewhere.",
-        "Pick one of the three line colours at the bottom, then click depots in order to run that line through them. Clicking the last depot again shortens the line.",
-        "A line gets a train as soon as it connects two depots. The train shuttles back and forth on its own.",
-        "A train only picks up a crate if its line actually reaches a depot of that shape, so where you route matters more than how much track you lay.",
-        "Every line has a limited amount of track. Right-click a line to clear it and start that one again.",
-        "New depots keep appearing. When one backs up past eight crates it starts a timer, and if that runs out the whole network stops."
+        "Run three lines between depots; trains shuttle them on their own.",
+        "A train only carries what its line actually reaches.",
+        "Depots keep appearing, and a backed-up one ends it."
       ],
       "goal": "Keep the network moving as the map grows. Crates delivered is the score, and your best is kept.",
       "cover": "games/freight/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T22:13:52.614Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:19.919Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/freight/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 20419,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:19.919Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/freight/1.0.0",
@@ -357,17 +400,24 @@
         "Space to start and pause"
       ],
       "howToPlay": [
-        "You are falling down a six-sided tunnel. Roll it left or right with the arrow keys or A and D — on touch, tap the left or right half of the screen.",
-        "Each roll turns the tunnel by one face, bringing a different panel to the bottom where your craft sits.",
-        "Barriers block some faces of each ring. Line the open face up with your craft before you reach it.",
-        "The first few rings are wide open. After that the gaps narrow and the whole thing accelerates.",
-        "Touching a barrier ends the run. Press space to start again, or to pause mid-fall."
+        "Roll the tunnel left and right so the gap lines up with you.",
+        "Every ring you pass makes the next one narrower and faster.",
+        "Touching a barrier ends the run. Distance is the score."
       ],
       "goal": "Get as far down the shaft as you can. Distance is the score, and your best is kept.",
       "cover": "games/hex-drift/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T19:40:43.543Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:20.160Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/hex-drift/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 504638,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:20.160Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/hex-drift/1.0.0",
@@ -399,18 +449,24 @@
         "Space to start"
       ],
       "howToPlay": [
-        "You have no engine. Pitch down with S or the down arrow to trade height for speed, and up to hold height at the cost of it.",
-        "Bank left and right with A and D, or the left and right arrows.",
-        "The gold rings are thermals. Flying through one gives you lift you did not have to buy with speed.",
-        "Clipping a wall or touching the floor ends the run where it stands.",
-        "The canyon is the same every single time, so a faster run is genuinely a better one.",
-        "Once you have set a time, your ghost flies alongside you and the split in the corner tells you whether you are ahead of it."
+        "No engine: dive for speed, climb and you spend it.",
+        "Gold rings are thermals that give the height back.",
+        "The canyon never changes, and your best run flies beside you."
       ],
       "goal": "Fly the canyon as fast as you can. Your best run is saved as a ghost and flies it again beside you.",
       "cover": "games/kite/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T22:06:43.970Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:20.420Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/kite/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 502035,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:20.420Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/kite/1.0.0",
@@ -442,18 +498,24 @@
         "Keys 1-5 to select"
       ],
       "howToPlay": [
-        "Pick an optic from the tray, then click or tap an empty square to place it. Keys 1 to 5 also select.",
-        "Click a placed optic to rotate it. Right-click, or the remove tool, takes it back and refunds its cost.",
-        "A mirror turns the beam ninety degrees, a splitter sends it two ways, a prism breaks white into red, green and blue, a filter keeps one colour, and a lens doubles whatever passes through.",
-        "You may build in the lane itself — shades are shadows and walk straight through your glass. Running the beam along the lane is usually the whole idea.",
-        "Shades resist one or two colours and take nothing from those. White light carries all three, so splitting it and routing the parts is what beats the resistant ones.",
-        "Press start when the layout is ready. Anything that reaches the far end costs you a life, and you can rebuild between waves."
+        "One beam, fixed where it is. You can only route it.",
+        "Mirrors, prisms and filters steer it down the lane the shades walk.",
+        "Shades resist colours, so white light has to be taken apart."
       ],
       "goal": "Stop every wave before it reaches the far end. You have a fixed budget of optics per map and no way to buy more damage.",
       "cover": "games/lattice/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T23:16:21.605Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:20.581Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/lattice/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 28818,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:20.581Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/lattice/1.0.0",
@@ -485,18 +547,24 @@
         "Right-click to pick a piece back up"
       ],
       "howToPlay": [
-        "Pick a piece from the tray at the bottom, then click an empty square to place it. Press R to turn the piece before placing it.",
-        "Click a piece you have already placed to rotate it; right-click it to take it back.",
-        "A mirror turns the beam ninety degrees. A splitter sends it two ways at once. A prism breaks it into red, green and blue — red bends right, green carries straight on, blue bends left.",
-        "Coloured glass keeps only its own colour, so white light through red glass comes out red.",
-        "Colours add where they land: red and green arriving together make yellow, and all three make white.",
-        "A receptor is only satisfied by exactly the colour it wants — too many colours is as wrong as too few."
+        "Place mirrors, splitters and prisms to route the beam.",
+        "A prism splits white into red, green and blue; colours add where they land.",
+        "Eighteen puzzles, every one proved solvable."
       ],
       "goal": "Light every receptor with exactly the colour it is asking for. All eighteen puzzles have been proved solvable.",
       "cover": "games/lumen/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T21:43:36.108Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:20.711Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/lumen/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 28627,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:20.711Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/lumen/1.0.0",
@@ -528,18 +596,24 @@
         "Space to pause"
       ],
       "howToPlay": [
-        "Steer with the arrow keys or WASD. On a touch screen, swipe in the direction you want to turn.",
-        "Eat the pink pellet to grow by one segment and score a point.",
-        "Every fourth pellet drops a gold one worth three points — it disappears after six seconds, so it is always a gamble.",
-        "The walls wrap: leaving one edge brings you back in on the opposite side. Your own tail does not wrap, and touching it ends the run.",
-        "The grid speeds up with every pellet eaten, so a long run gets harder on its own.",
-        "Press space to pause, and again to resume."
+        "Steer with the arrows, WASD, or a swipe.",
+        "Eat pellets to grow. Gold ones are worth three and do not wait.",
+        "Walls wrap around. Your own tail does not."
       ],
       "goal": "Eat as many pellets as you can without running into your own tail. Your best run is kept.",
       "cover": "games/neon-snake/cover.svg",
-      "latest": "1.1.0",
-      "updatedAt": "2026-08-19T19:41:38.439Z",
+      "latest": "1.2.0",
+      "updatedAt": "2026-08-20T08:24:20.832Z",
       "versions": [
+        {
+          "version": "1.2.0",
+          "path": "games/neon-snake/1.2.0",
+          "entry": "index.html",
+          "totalBytes": 16740,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:20.832Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.1.0",
           "path": "games/neon-snake/1.1.0",
@@ -580,18 +654,24 @@
         "Arrow keys also aim; R retries"
       ],
       "howToPlay": [
-        "Move the mouse to aim. The dotted line is the actual trajectory, computed the same way the flight is — if the dots reach the ring, the probe will too.",
-        "Hold the mouse button, or space, to build power. Release to launch.",
-        "You get one burn. After that the probe belongs to the planets and you can only watch.",
-        "The dots bunch together where the probe is moving slowly, which is the clearest sign you are about to be captured by something.",
-        "Falling past a planet bends the path — most levels can only be reached by using that, not by aiming straight at the target.",
-        "Crashing or flying off into space costs you nothing but another attempt. Press R to reset the aim."
+        "Aim, charge, and launch. You get one burn per attempt.",
+        "After that the probe belongs to the planets.",
+        "Twelve launches, each proved reachable."
       ],
       "goal": "Put the probe through the ring on each of the twelve launches. Every level has been proved reachable.",
       "cover": "games/orbital/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T22:02:43.406Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:21.047Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/orbital/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 510008,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:21.047Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/orbital/1.0.0",
@@ -622,18 +702,24 @@
         "Space to launch and pause"
       ],
       "howToPlay": [
-        "Move the paddle with the mouse, or with the arrow keys or A and D.",
-        "Press space or click to launch the ball, then keep it off the floor.",
-        "Where the ball hits the paddle decides where it goes: the edges send it out at a sharp angle, the centre sends it straight up.",
-        "Bricks come in three densities — the dimmer ones need more than one hit, and deeper rows are tougher.",
-        "Clearing every brick finishes the level and unlocks the next one. Losing all three balls sends you back to the start of the level you were on.",
-        "The ball speeds up slightly with each paddle hit, and each level launches it faster than the last."
+        "Move the paddle with the mouse or the arrow keys.",
+        "Where the ball hits the paddle decides where it goes.",
+        "Clear all twelve levels — each one you reach stays unlocked."
       ],
       "goal": "Clear all twelve levels. Every level you reach is unlocked permanently, so you can pick the run back up later.",
       "cover": "games/prism-breaker/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T19:40:43.377Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:21.204Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/prism-breaker/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 18394,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:21.204Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/prism-breaker/1.0.0",
@@ -665,18 +751,24 @@
         "Esc to pick another track"
       ],
       "howToPlay": [
-        "Pick a track from the list. There is a short count-in before the first note.",
-        "Notes fall down four lanes. Hit them as they cross the line at the bottom with D, F, J and K — the arrow keys work too.",
-        "Land within a hair of the line for a Perfect; a little early or late is a Good, and it will tell you which way you were off.",
-        "Missing a note breaks your combo, and the combo is what multiplies your score.",
-        "Accuracy is shown live in the corner, so you can tell a sloppy full clear from a clean one.",
-        "Press escape at any point to go back and pick another track."
+        "Four lanes, three original tracks written for this game.",
+        "Hit each note as it crosses the line with D, F, J and K.",
+        "Score and accuracy are kept separately for every track."
       ],
       "goal": "Hit every note. Score and accuracy are kept separately for each of the three tracks.",
       "cover": "games/pulse/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T21:57:47.131Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:21.351Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/pulse/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 3131270,
+          "files": 11,
+          "releasedAt": "2026-08-20T08:24:21.351Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/pulse/1.0.0",
@@ -708,18 +800,24 @@
         "Shift to move quietly"
       ],
       "howToPlay": [
-        "You are in a dark maze with a sonar and no map. Move with WASD or the arrow keys; hold shift to move quietly.",
-        "Press space to ping. The ring paints every wall it touches and flashes anything alive back at you as a red blip.",
-        "Walls you have seen stay faintly visible, so the map builds up as you explore.",
-        "The ping is also a shout: anything within earshot turns and comes towards where you pinged from.",
-        "A red glow at the edge of the screen means something is close, even if you cannot see it.",
-        "Find the green exit to descend. Three touches ends the run — each one sends you back to the entrance of the floor you are on."
+        "Move in the dark. Ping to see the walls around you.",
+        "The ping is also a shout — it tells them exactly where you are.",
+        "Find the green exit and go one floor deeper."
       ],
       "goal": "Find the way down on each level and go as deep as you can. Your deepest floor is kept.",
       "cover": "games/signal-lost/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T21:47:58.468Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:21.533Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/signal-lost/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 19599,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:21.533Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/signal-lost/1.0.0",
@@ -751,18 +849,24 @@
         "Mouse aims on desktop"
       ],
       "howToPlay": [
-        "Move with WASD or the arrow keys. On a touch screen, drag anywhere and your figure follows your thumb.",
-        "The beam fires on its own, in the direction you are facing — the mouse aims it on a desktop.",
-        "Every enemy the beam passes through splits it in two, each half dimmer than the last. Firing into a crowd is worth many times firing into space.",
-        "Killing things drops prisms. Collect them to level up, and pick one of three upgrades each time.",
-        "Most upgrades change the refraction: how many times it splits, how wide the split, how much survives each one.",
-        "Enemies damage you on contact. When your health is gone the run ends, and the prisms you collected buy permanent upgrades before the next one."
+        "Move; the beam fires itself. Every enemy it passes through splits it.",
+        "Firing into a crowd cascades. Firing into space does nothing.",
+        "Die, spend what you earned, and go again."
       ],
       "goal": "Survive as long as you can, and bank prisms for the run after this one.",
       "cover": "games/splinter/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T23:10:21.411Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:21.684Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/splinter/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 28823,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:21.684Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/splinter/1.0.0",
@@ -793,18 +897,24 @@
         "Any key to restart"
       ],
       "howToPlay": [
-        "A slab sweeps back and forth above the tower. Press space, click, or tap to drop it.",
-        "Only the part that overlaps the slab below survives — the overhang is sheared off and falls away.",
-        "That means the tower can only get narrower, so every drop matters more than the last.",
-        "Land one within a hair of dead centre and you get a little width back, which is the only way to recover.",
-        "Miss the tower completely and the run is over.",
-        "The sweep gets faster the higher you build."
+        "Drop each slab where it overlaps the one below.",
+        "The overhang is sheared off, so the tower only narrows.",
+        "Land one dead centre and you get some width back."
       ],
       "goal": "Stack as many slabs as you can. Height is the score, and your best is kept.",
       "cover": "games/stackwave/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T19:40:43.712Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:21.911Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/stackwave/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 495951,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:21.911Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/stackwave/1.0.0",
@@ -835,18 +945,24 @@
         "Down arrow to descend, space to bank"
       ],
       "howToPlay": [
-        "Press Descend, or the down arrow, to take one step deeper. Your carried light doubles.",
-        "The percentage above the button is the chance that step ends the descent and takes everything you are carrying. It rises the deeper you go.",
-        "Press Bank, or space, to keep what you are carrying and climb back to the surface. Banked light is safe forever.",
-        "If the floor gives way you lose everything you were carrying — the light already banked is untouched.",
-        "Spend banked light at the surface on lantern upgrades: a bigger lamp, a steadier hand, a safe first step, a second wind.",
-        "The daily descent uses the same sequence of floors for everyone, so what you banked today is worth comparing."
+        "Two buttons: descend, or bank what you are carrying.",
+        "Every step down doubles it and raises the odds it all goes.",
+        "The percentage shown is the one actually used."
       ],
       "goal": "Bank as much light as you can. Banked light buys permanent lantern upgrades, and the daily descent gives everyone the same sequence of floors.",
       "cover": "games/umbra/cover.svg",
-      "latest": "1.0.0",
-      "updatedAt": "2026-08-19T22:57:08.897Z",
+      "latest": "1.1.0",
+      "updatedAt": "2026-08-20T08:24:22.059Z",
       "versions": [
+        {
+          "version": "1.1.0",
+          "path": "games/umbra/1.1.0",
+          "entry": "index.html",
+          "totalBytes": 25116,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:24:22.059Z",
+          "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
+        },
         {
           "version": "1.0.0",
           "path": "games/umbra/1.0.0",

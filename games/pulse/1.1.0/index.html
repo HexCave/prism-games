@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pulse</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud" id="hud" hidden>
+    <div class="left"><span id="score">0</span><span id="song-name"></span><span id="combo"></span></div>
+    <div class="right"><span id="accuracy">100.0%</span><span id="judgement"></span></div>
+  </header>
+
+  <div class="select" id="select">
+    <h1>Pulse</h1>
+    <p>Hit the notes as they cross the line. <b>D F J K</b>, or the arrow keys.</p>
+    <div class="songs" id="songs"></div>
+    <p class="foot" id="foot">Three tracks, written for this game.</p>
+  </div>
+
+  <div class="result" id="result" hidden>
+    <h1 id="result-title">Cleared</h1>
+    <dl id="result-stats"></dl>
+    <div class="actions">
+      <button id="again" type="button">Play again</button>
+      <button id="back" class="ghost" type="button">Pick another track</button>
+    </div>
+  </div>
+
+  <div class="loading" id="loading" hidden><span class="spinner"></span><p id="loading-text">Loading…</p></div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

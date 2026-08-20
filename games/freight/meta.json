@@ -18,18 +18,19 @@
     "Space to pause"
   ],
   "howToPlay": [
-    "Each depot is a shape, and it makes crates of other shapes that need taking somewhere.",
-    "Pick one of the three line colours at the bottom, then click depots in order to run that line through them. Clicking the last depot again shortens the line.",
-    "A line gets a train as soon as it connects two depots. The train shuttles back and forth on its own.",
-    "A train only picks up a crate if its line actually reaches a depot of that shape, so where you route matters more than how much track you lay.",
-    "Every line has a limited amount of track. Right-click a line to clear it and start that one again.",
-    "New depots keep appearing. When one backs up past eight crates it starts a timer, and if that runs out the whole network stops."
+    "Run three lines between depots; trains shuttle them on their own.",
+    "A train only carries what its line actually reaches.",
+    "Depots keep appearing, and a backed-up one ends it."
   ],
   "goal": "Keep the network moving as the map grows. Crates delivered is the score, and your best is kept.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T22:13:52.614Z",
       "notes": "First release."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:19.919Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

@@ -17,18 +17,19 @@
     "Tap to buy"
   ],
   "howToPlay": [
-    "Buy a splitter. It branches the beam again and adds another stream, and every stream produces photons on its own.",
-    "Splitters get more expensive each time, so the other upgrades are what keep the curve moving: cleaner glass brightens every stream, a brighter source and a wider spectrum multiply everything.",
-    "Tap or click the tree itself for a small handful of photons whenever you like. It is never required.",
-    "Close the tab whenever you want. The tree keeps producing while you are away, up to eight hours' worth.",
-    "Once you have earned enough, prestige: the tree resets to nothing and you keep spectra, which permanently raise everything you produce from then on.",
-    "The first prestige takes about twenty minutes. After that they come faster and are worth more."
+    "Buy splitters. Each one branches the beam and adds a stream.",
+    "It keeps producing while the tab is closed, up to eight hours.",
+    "Fold the tree when the numbers get silly, and keep the spectrum."
   ],
   "goal": "Grow the tree, then prestige to make the next one grow faster. There is no losing, only how far you have got.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T23:04:42.682Z",
       "notes": "First release. Curve balanced against a simulated six-hour game."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:19.097Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

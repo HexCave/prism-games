@@ -17,17 +17,19 @@
     "Space to start and pause"
   ],
   "howToPlay": [
-    "You are falling down a six-sided tunnel. Roll it left or right with the arrow keys or A and D — on touch, tap the left or right half of the screen.",
-    "Each roll turns the tunnel by one face, bringing a different panel to the bottom where your craft sits.",
-    "Barriers block some faces of each ring. Line the open face up with your craft before you reach it.",
-    "The first few rings are wide open. After that the gaps narrow and the whole thing accelerates.",
-    "Touching a barrier ends the run. Press space to start again, or to pause mid-fall."
+    "Roll the tunnel left and right so the gap lines up with you.",
+    "Every ring you pass makes the next one narrower and faster.",
+    "Touching a barrier ends the run. Distance is the score."
   ],
   "goal": "Get as far down the shaft as you can. Distance is the score, and your best is kept.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T19:40:43.543Z",
       "notes": "First release."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:20.160Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

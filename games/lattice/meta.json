@@ -18,18 +18,19 @@
     "Keys 1-5 to select"
   ],
   "howToPlay": [
-    "Pick an optic from the tray, then click or tap an empty square to place it. Keys 1 to 5 also select.",
-    "Click a placed optic to rotate it. Right-click, or the remove tool, takes it back and refunds its cost.",
-    "A mirror turns the beam ninety degrees, a splitter sends it two ways, a prism breaks white into red, green and blue, a filter keeps one colour, and a lens doubles whatever passes through.",
-    "You may build in the lane itself — shades are shadows and walk straight through your glass. Running the beam along the lane is usually the whole idea.",
-    "Shades resist one or two colours and take nothing from those. White light carries all three, so splitting it and routing the parts is what beats the resistant ones.",
-    "Press start when the layout is ready. Anything that reaches the far end costs you a life, and you can rebuild between waves."
+    "One beam, fixed where it is. You can only route it.",
+    "Mirrors, prisms and filters steer it down the lane the shades walk.",
+    "Shades resist colours, so white light has to be taken apart."
   ],
   "goal": "Stop every wave before it reaches the far end. You have a fixed budget of optics per map and no way to buy more damage.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T23:16:21.605Z",
       "notes": "First release. Eight maps, each proved winnable within its budget."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:20.581Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

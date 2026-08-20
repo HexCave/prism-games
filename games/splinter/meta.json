@@ -18,18 +18,19 @@
     "Mouse aims on desktop"
   ],
   "howToPlay": [
-    "Move with WASD or the arrow keys. On a touch screen, drag anywhere and your figure follows your thumb.",
-    "The beam fires on its own, in the direction you are facing — the mouse aims it on a desktop.",
-    "Every enemy the beam passes through splits it in two, each half dimmer than the last. Firing into a crowd is worth many times firing into space.",
-    "Killing things drops prisms. Collect them to level up, and pick one of three upgrades each time.",
-    "Most upgrades change the refraction: how many times it splits, how wide the split, how much survives each one.",
-    "Enemies damage you on contact. When your health is gone the run ends, and the prisms you collected buy permanent upgrades before the next one."
+    "Move; the beam fires itself. Every enemy it passes through splits it.",
+    "Firing into a crowd cascades. Firing into space does nothing.",
+    "Die, spend what you earned, and go again."
   ],
   "goal": "Survive as long as you can, and bank prisms for the run after this one.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T23:10:21.411Z",
       "notes": "First release."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:21.684Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

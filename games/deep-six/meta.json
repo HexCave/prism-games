@@ -18,18 +18,19 @@
     "Q to quaff a potion"
   ],
   "howToPlay": [
-    "Move with the arrow keys or WASD. It is turn-based: nothing moves until you do.",
-    "Walk into a monster to attack it. It will hit back, and so will anything else next to you.",
-    "You can only see what your lamp reaches, but everywhere you have been stays on the map.",
-    "Pink dots are potions — walk over one to pick it up, and press Q to drink. Gold dots are echo shards, which are worth something upstairs.",
-    "The green circle is the way down. Reaching it takes you to the next of six floors.",
-    "Death is permanent for that run, but you keep the echoes you earned. Spend them between runs on what you carry down next time."
+    "Turn-based: nothing moves until you do. Walk into things to attack.",
+    "Six floors down, and death ends the run for good.",
+    "The echoes you earned buy what you carry down next time."
   ],
   "goal": "Reach the sixth floor and kill what is down there. Everything you earn on the way is kept even when you die.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T22:10:18.455Z",
       "notes": "First release. Six floors."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:19.666Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

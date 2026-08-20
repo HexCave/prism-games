@@ -18,17 +18,19 @@
     "Tab switches daily and unlimited"
   ],
   "howToPlay": [
-    "Drag anywhere on the board to aim. The launch point snaps to the nearest point on the rim and a dotted line previews the first bounce.",
-    "Release to fire. The beam reflects off panels and the rim until it runs out, lighting every panel it touches.",
-    "Panels stay lit between shots, so plan the next shot around what is still dark.",
-    "You have three shots on the daily board. Clear it and your streak grows; come back tomorrow for a new one.",
-    "Unlimited mode gives you endless fresh boards — clear one to move straight to the next."
+    "Drag from the rim to aim, release to fire.",
+    "The beam ricochets, and every panel it grazes stays lit.",
+    "Three shots, and everyone gets the same board today."
   ],
   "goal": "Light all sixteen panels in three shots. Fewer shots is better; every board here has been proved clearable.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T22:42:13.671Z",
       "notes": "First release. Daily boards proved clearable through September 2027."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:19.798Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

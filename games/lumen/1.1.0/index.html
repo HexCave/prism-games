@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lumen</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar">
+    <button id="prev" class="ghost" type="button" title="Previous level">‹</button>
+    <div class="title">
+      <strong id="level-name">—</strong>
+      <span id="level-index"></span>
+    </div>
+    <button id="next" class="ghost" type="button" title="Next level">›</button>
+    <div class="spacer"></div>
+    <span class="moves"><b id="moves">0</b> placed<i id="par"></i></span>
+    <button id="reset" class="ghost" type="button">Reset</button>
+    <button id="levels-button" class="ghost" type="button">Levels</button>
+  </header>
+
+  <canvas id="stage"></canvas>
+
+  <footer class="tray" id="tray"></footer>
+  <p class="hint" id="hint"></p>
+
+  <div class="sheet" id="sheet" hidden>
+    <h2>Levels</h2>
+    <div class="level-grid" id="level-grid"></div>
+    <button id="sheet-close" class="ghost" type="button">Close</button>
+  </div>
+
+  <div class="win" id="win" hidden>
+    <h1 id="win-title">Solved</h1>
+    <p id="win-text"></p>
+    <button id="win-next" type="button">Next puzzle</button>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

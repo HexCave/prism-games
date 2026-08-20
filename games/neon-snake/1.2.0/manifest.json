@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "neon-snake",
+  "version": "1.2.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:24:20.831Z",
+  "totalBytes": 16740,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 694,
+      "sha256": "7595fd443438bdcad54dcf9a7d754ae9ce34368443f46a82935d03d848ee7e4c"
+    },
+    {
+      "path": "main.js",
+      "bytes": 8284,
+      "sha256": "7f743fc1fe2197f156a00cd71387320f163e4a70c2d8b3e0a6aed4feb40eab94"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1494,
+      "sha256": "32ecdfd73c261cdf7fbd4b9458ac46aece5d8ea96a542222a363bcc7bbe5971d"
+    }
+  ]
+}

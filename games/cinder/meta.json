@@ -17,18 +17,19 @@
     "Space to flare (costs heat)"
   ],
   "howToPlay": [
-    "You are an ember falling through a burning canopy. Steer with the arrow keys or A and D — you carry momentum, so start turning early.",
-    "Your heat drains constantly, and when it hits zero you go out. The bar along the bottom is your life.",
-    "Touching anything green sets it alight: that scores points and gives some heat back. Twigs are worth more than leaves.",
-    "Catch several in a row without missing and the multiplier climbs, up to six times.",
-    "Water costs you a third of your heat. Wind bands push you sideways whether you like it or not.",
-    "Press space to flare: it widens your reach for half a second at the cost of some heat."
+    "Steer the ember with momentum, not precision.",
+    "Green things give heat back. Water takes a third of it.",
+    "Your heat is your life, and it drains on its own."
   ],
   "goal": "Fall as far as you can before your heat runs out. Points and distance both count towards your best.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T21:51:58.676Z",
       "notes": "First release."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:19.510Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

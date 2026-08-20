@@ -17,18 +17,19 @@
     "Any key to restart"
   ],
   "howToPlay": [
-    "A slab sweeps back and forth above the tower. Press space, click, or tap to drop it.",
-    "Only the part that overlaps the slab below survives — the overhang is sheared off and falls away.",
-    "That means the tower can only get narrower, so every drop matters more than the last.",
-    "Land one within a hair of dead centre and you get a little width back, which is the only way to recover.",
-    "Miss the tower completely and the run is over.",
-    "The sweep gets faster the higher you build."
+    "Drop each slab where it overlaps the one below.",
+    "The overhang is sheared off, so the tower only narrows.",
+    "Land one dead centre and you get some width back."
   ],
   "goal": "Stack as many slabs as you can. Height is the score, and your best is kept.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T19:40:43.712Z",
       "notes": "First release."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:21.911Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

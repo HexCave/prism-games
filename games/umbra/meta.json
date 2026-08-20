@@ -17,18 +17,19 @@
     "Down arrow to descend, space to bank"
   ],
   "howToPlay": [
-    "Press Descend, or the down arrow, to take one step deeper. Your carried light doubles.",
-    "The percentage above the button is the chance that step ends the descent and takes everything you are carrying. It rises the deeper you go.",
-    "Press Bank, or space, to keep what you are carrying and climb back to the surface. Banked light is safe forever.",
-    "If the floor gives way you lose everything you were carrying — the light already banked is untouched.",
-    "Spend banked light at the surface on lantern upgrades: a bigger lamp, a steadier hand, a safe first step, a second wind.",
-    "The daily descent uses the same sequence of floors for everyone, so what you banked today is worth comparing."
+    "Two buttons: descend, or bank what you are carrying.",
+    "Every step down doubles it and raises the odds it all goes.",
+    "The percentage shown is the one actually used."
   ],
   "goal": "Bank as much light as you can. Banked light buys permanent lantern upgrades, and the daily descent gives everyone the same sequence of floors.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T22:57:08.897Z",
       "notes": "First release. Curve tuned against twenty thousand simulated descents."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:22.059Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }

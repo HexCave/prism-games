@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "hex-drift",
+  "version": "1.1.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T08:24:20.157Z",
+  "totalBytes": 504638,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 785,
+      "sha256": "18ced47d0d726f63e19d3848d940db1c06bd0e00af69fa6388c8f9575ff9e418"
+    },
+    {
+      "path": "main.js",
+      "bytes": 495986,
+      "sha256": "8f47bcc6f8b2bc8d5a6cbfb5fae1a0863862ace0741b211cfa516b1b59a30363"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 6268,
+      "sha256": "8b06a29aaca5a9aa5c16390c42291c427d2bc482cab52de543586cc4088106a9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1599,
+      "sha256": "4990d1543b1a6ccfaa6283b700e751151f2e8199e00b5156cda83f6296de7f4b"
+    }
+  ]
+}

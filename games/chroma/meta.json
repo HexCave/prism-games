@@ -18,18 +18,19 @@
     "Z to undo"
   ],
   "howToPlay": [
-    "Tap or click a column to drop the tile shown at the top. On a keyboard, keys 1 to 6 pick the column.",
-    "Two tiles touching side by side or one above the other merge if they share no colour: red and green become yellow, red and blue become magenta, yellow and blue become white.",
-    "Two tiles of the same colour never merge, so a board of nothing but red is a board in trouble.",
-    "Two whites side by side collapse into a prism, which clears its entire row.",
-    "Every merge drops what is above it, which can set off another merge — chains multiply the score.",
-    "Fill every column and the game ends. The daily board gives everyone the same tile order; endless is a fresh sequence every time."
+    "Drop tiles into columns. Colours that share nothing mix.",
+    "Red and green make yellow; two whites clear a row.",
+    "Same colours never merge, so a board of one colour is trouble."
   ],
   "goal": "Score as much as you can before the grid fills. Chains are where the points are — a merge that triggers another is worth far more than two separate ones.",
   "releases": {
     "1.0.0": {
       "releasedAt": "2026-08-19T22:47:36.852Z",
       "notes": "First release."
+    },
+    "1.1.0": {
+      "releasedAt": "2026-08-20T08:24:19.363Z",
+      "notes": "In-game coaching: short hints that appear where they are relevant and retire once you have got it."
     }
   }
 }
