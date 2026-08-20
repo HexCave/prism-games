@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T08:29:16.509Z",
+  "generatedAt": "2026-08-20T08:31:56.640Z",
   "host": "play.html",
   "categories": [
     {
@@ -999,9 +999,18 @@
       ],
       "goal": "Survive as long as you can, and bank prisms for the run after this one.",
       "cover": "games/splinter/cover.svg",
-      "latest": "1.1.1",
-      "updatedAt": "2026-08-20T08:29:16.106Z",
+      "latest": "1.1.2",
+      "updatedAt": "2026-08-20T08:31:56.624Z",
       "versions": [
+        {
+          "version": "1.1.2",
+          "path": "games/splinter/1.1.2",
+          "entry": "index.html",
+          "totalBytes": 29304,
+          "files": 4,
+          "releasedAt": "2026-08-20T08:31:56.624Z",
+          "notes": "Starts in a run rather than on the upgrade screen."
+        },
         {
           "version": "1.1.1",
           "path": "games/splinter/1.1.1",

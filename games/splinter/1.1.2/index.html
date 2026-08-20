@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Splinter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="left">
+      <span id="clock">0:00</span>
+      <span id="level">Level 1</span>
+    </div>
+    <div class="bars">
+      <div class="bar health"><i id="health-fill"></i></div>
+      <div class="bar xp"><i id="xp-fill"></i></div>
+    </div>
+    <div class="right"><span id="prisms">0</span><span id="kills">0 killed</span></div>
+  </header>
+
+  <div class="choose" id="choose" hidden>
+    <h2>Level <span id="choose-level">2</span></h2>
+    <div class="cards" id="cards"></div>
+    <button id="reroll" class="ghost" type="button">Watch to reroll</button>
+  </div>
+
+  <div class="banner" id="banner" hidden>
+    <h1 id="banner-title"></h1>
+    <p id="banner-text"></p>
+    <div class="actions" id="banner-actions"></div>
+  </div>
+
+  <div class="sheet" id="sheet" hidden>
+    <h2>Between runs</h2>
+    <p id="sheet-prisms">0 prisms</p>
+    <div class="unlocks" id="unlocks"></div>
+    <button id="start" type="button">Start the run</button>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
