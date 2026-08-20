@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arrowlock</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar" id="bar">
+    <button id="prev" class="ghost" type="button" title="Previous board">‹</button>
+    <div class="title">
+      <strong id="board-name">Board 1</strong>
+      <span id="board-left"></span>
+    </div>
+    <button id="next" class="ghost" type="button" title="Next board">›</button>
+    <div class="spacer"></div>
+    <div class="hearts" id="hearts" aria-label="Hearts"></div>
+    <button id="reset" class="ghost" type="button">Reset</button>
+    <button id="boards-button" class="ghost" type="button">Boards</button>
+  </header>
+
+  <canvas id="stage"></canvas>
+
+  <div class="sheet" id="sheet" hidden>
+    <h2>Boards</h2>
+    <div class="board-grid" id="board-grid"></div>
+    <button id="sheet-close" class="ghost" type="button">Close</button>
+  </div>
+
+  <div class="over" id="win" hidden>
+    <h1>Cleared</h1>
+    <p id="win-text"></p>
+    <button id="win-next" type="button">Next board</button>
+  </div>
+
+  <div class="over" id="lose" hidden>
+    <h1 class="fail">Out of hearts</h1>
+    <p id="lose-text"></p>
+    <div class="row">
+      <button id="lose-reward" type="button">Watch for one more heart</button>
+      <button id="lose-retry" class="ghost" type="button">Restart board</button>
+    </div>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

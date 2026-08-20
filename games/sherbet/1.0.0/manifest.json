@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sherbet",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T10:22:23.637Z",
+  "totalBytes": 37744,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1588,
+      "sha256": "99a63abe509747ff9bd23fe7132b77762bba607e38f8cbaa98576a397463b637"
+    },
+    {
+      "path": "main.js",
+      "bytes": 24609,
+      "sha256": "00a80b7b528819472186ca05b89674d3f57bc7ff7d8e48c6655ab0306fa07fda"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 7409,
+      "sha256": "e500426b1d222e2ca4d5564ced6e00e40e9e9c97ed3e7d216c291dfef293a08c"
+    },
+    {
+      "path": "style.css",
+      "bytes": 4138,
+      "sha256": "67f81b4a34ea56c370f85a0134081c94458912a8a3ab20b5a4b2ae00cc8282cb"
+    }
+  ]
+}

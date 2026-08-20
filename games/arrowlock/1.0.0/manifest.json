@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "arrowlock",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T10:22:23.755Z",
+  "totalBytes": 44386,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1575,
+      "sha256": "9c1318efda53b8edcc89e5885e9989b0049f4f6b3618d5fee194ff5158b426ee"
+    },
+    {
+      "path": "main.js",
+      "bytes": 32090,
+      "sha256": "6224aa2483907714d30bdf42ed2cb3349ec45e372c8fd8ac9be8197992b20b30"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 7409,
+      "sha256": "e500426b1d222e2ca4d5564ced6e00e40e9e9c97ed3e7d216c291dfef293a08c"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3312,
+      "sha256": "2bfea501710e634efef4eab22b5f53575cdf49aff5c538e329d5e7e8873f39ee"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sudoku</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="title">
+      <strong id="mode">Medium</strong>
+      <span id="sub">&nbsp;</span>
+    </div>
+    <div class="spacer"></div>
+    <span class="stat"><b id="time">0:00</b>time</span>
+    <span class="stat"><b id="mistakes">0</b>slips</span>
+    <button id="new" class="ghost" type="button" title="A fresh puzzle at this difficulty">New</button>
+  </header>
+
+  <nav class="tiers" id="tiers"></nav>
+
+  <main id="stage">
+    <div class="board" id="board" aria-label="Sudoku grid"></div>
+  </main>
+
+  <footer class="pad">
+    <div class="digits" id="digits"></div>
+    <div class="tools">
+      <button id="pencil" class="tool" type="button" aria-pressed="false">Pencil<kbd>N</kbd></button>
+      <button id="erase" class="tool" type="button">Erase<kbd>0</kbd></button>
+      <button id="undo" class="tool" type="button">Undo<kbd>Z</kbd></button>
+    </div>
+  </footer>
+
+  <div class="win" id="win" hidden>
+    <h1>Solved</h1>
+    <p id="win-text"></p>
+    <button id="win-next" type="button">Next puzzle</button>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

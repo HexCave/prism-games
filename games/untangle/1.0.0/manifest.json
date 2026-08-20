@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "untangle",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T10:22:24.160Z",
+  "totalBytes": 28406,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1460,
+      "sha256": "477670d24d42ad07701fcb06ddfa1adc342309aad07ff6e59bebd2bf32bba3cc"
+    },
+    {
+      "path": "main.js",
+      "bytes": 16209,
+      "sha256": "23bd91a175109a34d3357f3f237fc219d6aff1f875b2f870ef345c7941033339"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 7409,
+      "sha256": "e500426b1d222e2ca4d5564ced6e00e40e9e9c97ed3e7d216c291dfef293a08c"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3328,
+      "sha256": "2b16856789613c8999c5cd4fc9b02d9b69ad421b715136b40c88d98bf8784eeb"
+    }
+  ]
+}

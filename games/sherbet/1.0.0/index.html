@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Sherbet</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="stat">
+      <span class="label">Level</span>
+      <b id="level">1</b>
+    </div>
+    <div class="goal">
+      <div class="track"><i id="fill"></i></div>
+      <div class="figures"><b id="score">0</b><span id="target">of 0</span></div>
+    </div>
+    <div class="stat right">
+      <span class="label">Moves</span>
+      <b id="moves">0</b>
+    </div>
+  </header>
+
+  <footer class="foot">
+    <button id="levels" class="ghost" type="button">Levels</button>
+    <button id="restart" class="ghost" type="button">Restart</button>
+    <button id="advance" class="go" type="button" hidden>Bank it</button>
+    <span class="hint" id="hint"></span>
+  </footer>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <div class="sheet" id="sheet" hidden>
+    <div class="card">
+      <h2>Sixty levels</h2>
+      <p id="sheet-note">Clear one to open the next.</p>
+      <div class="grid" id="level-grid"></div>
+      <button id="sheet-close" class="ghost" type="button">Back to the board</button>
+    </div>
+  </div>
+
+  <div class="over" id="over" hidden>
+    <h1 id="over-title">Out of moves</h1>
+    <p id="over-text"></p>
+    <div class="actions" id="over-actions"></div>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

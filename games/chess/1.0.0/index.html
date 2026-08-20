@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chess</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="title">
+      <strong>Chess</strong>
+      <span id="status" aria-live="polite">Your move</span>
+    </div>
+    <div class="spacer"></div>
+    <div class="levels" id="levels" role="group" aria-label="Engine strength"></div>
+    <button id="flip" class="ghost" type="button" title="Flip the board (F)">Flip</button>
+    <button id="undo" class="ghost" type="button" title="Take back a move (U)">Take back</button>
+    <button id="restart" class="ghost" type="button" title="Start again (N)">New game</button>
+  </header>
+
+  <canvas id="stage"></canvas>
+
+  <aside class="moves tray" id="moves" aria-label="Moves played">
+    <ol id="movelist"></ol>
+  </aside>
+
+  <div class="promo" id="promo" hidden>
+    <p>Promote to</p>
+    <div class="promo-row" id="promo-row"></div>
+    <button id="promo-cancel" class="ghost" type="button">Cancel</button>
+  </div>
+
+  <div class="over" id="over" hidden>
+    <h1 id="over-title">Checkmate</h1>
+    <p id="over-text"></p>
+    <button id="over-new" type="button">New game</button>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Untangle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bar">
+    <button id="prev" class="ghost" type="button" title="Previous board">‹</button>
+    <div class="title">
+      <strong id="level-name">Board 1</strong>
+      <span id="level-pegs"></span>
+    </div>
+    <button id="next" class="ghost" type="button" title="Next board">›</button>
+
+    <div class="spacer"></div>
+    <div class="count" id="count">
+      <b id="crossings">0</b>
+      <i id="crossings-label">crossings</i>
+    </div>
+    <div class="spacer"></div>
+
+    <span class="moves"><b id="moves">0</b> moves<i id="best"></i></span>
+    <button id="shuffle" class="ghost" type="button" title="Deal the same board again">Shuffle</button>
+    <button id="levels-button" class="ghost" type="button">Boards</button>
+  </header>
+
+  <canvas id="stage"></canvas>
+
+  <div class="sheet" id="sheet" hidden>
+    <h2>Boards</h2>
+    <div class="level-grid" id="level-grid"></div>
+    <button id="sheet-close" class="ghost" type="button">Close</button>
+  </div>
+
+  <div class="win" id="win" hidden>
+    <h1>Untangled</h1>
+    <p id="win-text"></p>
+    <button id="win-next" type="button">Next board</button>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

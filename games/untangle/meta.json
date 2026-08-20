@@ -1,0 +1,31 @@
+{
+  "id": "untangle",
+  "title": "Untangle",
+  "tagline": "It is a mess of crossed lines. It does not have to be.",
+  "description": "A knot of pegs and threads, thrown down so the threads cross each other. Drag the pegs around until no thread crosses another. Every board here is built by taking an untangled arrangement and scrambling it, so a clean solution always exists — and the crossings still left are counted for you, which turns a hopeless-looking tangle into a number that only goes down.",
+  "category": "puzzle",
+  "tags": [
+    "logic",
+    "relaxing",
+    "touch",
+    "levels"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Drag the pegs",
+    "R reshuffles the board"
+  ],
+  "howToPlay": [
+    "Drag a peg to move it. The threads follow.",
+    "Crossings are counted at the top. Get it to zero and the board is done.",
+    "Threads that cross are drawn red; the ones that are clear go quiet."
+  ],
+  "goal": "Move the pegs until no two threads cross. Every board can be untangled.",
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-20T10:22:24.160Z",
+      "notes": "First release."
+    }
+  }
+}

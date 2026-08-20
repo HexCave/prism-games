@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Morsel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <span class="stat"><b id="score">0</b><i>score</i></span>
+    <span class="stat"><b id="best">0</b><i>best</i></span>
+    <span class="spacer"></span>
+    <span class="stat"><b id="level">1</b><i>maze</i></span>
+    <span class="lives" id="lives"></span>
+  </header>
+
+  <div class="overlay" id="overlay" hidden>
+    <h1 id="overlay-title">Caught</h1>
+    <p id="overlay-text"></p>
+    <button id="again" type="button">Again</button>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

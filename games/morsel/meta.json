@@ -1,0 +1,31 @@
+{
+  "id": "morsel",
+  "title": "Morsel",
+  "tagline": "Clear the maze. Four things in it would rather you did not.",
+  "description": "A maze full of crumbs and four hunters that want you out of it. Eat every crumb to finish the maze; the hunters chase, and each one is looking for you differently — one comes straight at you, one cuts you off, one keeps its distance until it does not. The four bright morsels in the corners turn the tables for a few seconds and send them running. Every maze cleared makes them quicker and their retreat shorter.",
+  "category": "arcade",
+  "tags": [
+    "maze",
+    "arcade",
+    "highscore",
+    "touch"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Arrows or WASD to move",
+    "Swipe on touch"
+  ],
+  "howToPlay": [
+    "Arrows or a swipe to move. You keep going until a wall stops you.",
+    "Eat every crumb to clear the maze. The hunters chase, each in its own way.",
+    "A bright morsel makes them run from you — for a few seconds, and less each maze."
+  ],
+  "goal": "Clear every crumb from the maze. Three lives, and the hunters get faster each time you do.",
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-20T10:22:24.076Z",
+      "notes": "First release."
+    }
+  }
+}

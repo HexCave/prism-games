@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T08:31:56.640Z",
+  "generatedAt": "2026-08-20T10:22:24.174Z",
   "host": "play.html",
   "categories": [
     {
       "id": "arcade",
       "label": "Arcade",
-      "count": 3
+      "count": 5
     },
     {
       "id": "puzzle",
       "label": "Puzzle",
-      "count": 6
+      "count": 10
     },
     {
       "id": "action",
@@ -26,7 +26,7 @@
     {
       "id": "strategy",
       "label": "Strategy",
-      "count": 3
+      "count": 4
     },
     {
       "id": "rhythm",
@@ -40,6 +40,45 @@
     }
   ],
   "games": [
+    {
+      "id": "arrowlock",
+      "title": "Arrowlock",
+      "tagline": "Every arrow wants out. Only some of them can go yet.",
+      "description": "A board packed with arrows, each pointing somewhere. Tap one and it slides off the board in the direction it faces — but only if nothing is in the way. You cannot lock yourself out: clearing an arrow only ever frees space, so a board can always be finished. What it costs you is attention. Tap something that is blocked and it lunges, snaps back, and takes one of your three hearts. The game is in the looking — following a lane all the way to the edge before you commit. Sixty boards, every one checked by a solver before it ships.",
+      "category": "puzzle",
+      "tags": [
+        "logic",
+        "levels",
+        "touch",
+        "daily"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Tap an arrow to send it",
+        "R restarts the board"
+      ],
+      "howToPlay": [
+        "Tap an arrow and it slides off the board the way it points, if the path is clear.",
+        "Follow the lane all the way to the edge first — a blocked tap costs a heart.",
+        "You cannot make a board unsolvable. You can only run out of hearts."
+      ],
+      "goal": "Clear every arrow off the board. A blocked tap costs a heart, and you only get three.",
+      "cover": "games/arrowlock/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-20T10:22:23.756Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/arrowlock/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 44386,
+          "files": 4,
+          "releasedAt": "2026-08-20T10:22:23.756Z",
+          "notes": "First release."
+        }
+      ]
+    },
     {
       "id": "cascade",
       "title": "Cascade",
@@ -152,6 +191,46 @@
           "files": 4,
           "releasedAt": "2026-08-19T22:53:30.024Z",
           "notes": "First release. Sixty holes, each proved sinkable."
+        }
+      ]
+    },
+    {
+      "id": "chess",
+      "title": "Chess",
+      "tagline": "The whole game, with an opponent that thinks a few moves ahead.",
+      "description": "Chess against an engine that plays the real thing — castling, en passant, promotion, the lot — and knows when it is checkmate, stalemate, or a draw by repetition. Four strengths, from one that plays almost at random to one that searches several moves deep and will take material if you leave it hanging. Legal moves are shown when you pick a piece up, the move list reads back in proper notation, and you can take a move back when you regret it.",
+      "category": "strategy",
+      "tags": [
+        "board",
+        "engine",
+        "strategy",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Tap a piece, then its destination",
+        "U takes a move back",
+        "F flips the board"
+      ],
+      "howToPlay": [
+        "Tap a piece to see everywhere it can legally go, then tap the square you want.",
+        "Castling, en passant and promotion all work; check is announced.",
+        "Pick a strength before you start, and take a move back whenever you like."
+      ],
+      "goal": "Checkmate the engine. Or beat a harder one than you did last time.",
+      "cover": "games/chess/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-20T10:22:23.985Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/chess/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 43778,
+          "files": 4,
+          "releasedAt": "2026-08-20T10:22:23.985Z",
+          "notes": "First release."
         }
       ]
     },
@@ -676,6 +755,45 @@
       ]
     },
     {
+      "id": "morsel",
+      "title": "Morsel",
+      "tagline": "Clear the maze. Four things in it would rather you did not.",
+      "description": "A maze full of crumbs and four hunters that want you out of it. Eat every crumb to finish the maze; the hunters chase, and each one is looking for you differently — one comes straight at you, one cuts you off, one keeps its distance until it does not. The four bright morsels in the corners turn the tables for a few seconds and send them running. Every maze cleared makes them quicker and their retreat shorter.",
+      "category": "arcade",
+      "tags": [
+        "maze",
+        "arcade",
+        "highscore",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Arrows or WASD to move",
+        "Swipe on touch"
+      ],
+      "howToPlay": [
+        "Arrows or a swipe to move. You keep going until a wall stops you.",
+        "Eat every crumb to clear the maze. The hunters chase, each in its own way.",
+        "A bright morsel makes them run from you — for a few seconds, and less each maze."
+      ],
+      "goal": "Clear every crumb from the maze. Three lives, and the hunters get faster each time you do.",
+      "cover": "games/morsel/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-20T10:22:24.076Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/morsel/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 32516,
+          "files": 4,
+          "releasedAt": "2026-08-20T10:22:24.076Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
       "id": "neon-snake",
       "title": "Neon Snake",
       "tagline": "Eat the light. Don't eat yourself.",
@@ -916,6 +1034,45 @@
       ]
     },
     {
+      "id": "sherbet",
+      "title": "Sherbet",
+      "tagline": "Swap two sweets, line up three, and hope it keeps going.",
+      "description": "A match-three with a sweet shop's worth of colour. Swap any two neighbours to line up three or more and they burst; whatever is above drops into the gap, which is where the good runs come from — one swap setting off four collapses in a row. Line up four and you get a striped sweet that clears a whole line; five makes something that clears every sweet of one colour. Sixty levels, each with its own target and a fixed number of moves to hit it.",
+      "category": "puzzle",
+      "tags": [
+        "match-3",
+        "levels",
+        "touch",
+        "cascades"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Tap or click two neighbours to swap",
+        "Drag a sweet onto its neighbour"
+      ],
+      "howToPlay": [
+        "Swap two neighbouring sweets to line up three or more of a colour.",
+        "A swap that lines nothing up is not allowed, and does not cost a move.",
+        "Match four for a striped sweet that clears a line; match five for something better."
+      ],
+      "goal": "Hit each level’s target before the moves run out. Cascades and special sweets are where the points are.",
+      "cover": "games/sherbet/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-20T10:22:23.638Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/sherbet/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 37744,
+          "files": 4,
+          "releasedAt": "2026-08-20T10:22:23.638Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
       "id": "signal-lost",
       "title": "Signal Lost",
       "tagline": "The ping is the only way to see. It is also how they find you.",
@@ -1098,6 +1255,87 @@
       ]
     },
     {
+      "id": "sudoku",
+      "title": "Sudoku",
+      "tagline": "Nine by nine, one of each, no guessing required.",
+      "description": "Sudoku, generated fresh and never unfair. Every puzzle here is made by a generator that then hands it to a solver, and only ships it if there is exactly one answer and that answer can be reached by reasoning alone — no puzzle in this game needs a guess. Four difficulties, pencil marks for the ones you are not sure of, and a daily puzzle that everyone gets the same copy of.",
+      "category": "puzzle",
+      "tags": [
+        "logic",
+        "daily",
+        "levels",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Tap a cell, then a number",
+        "Keys 1-9 to fill, 0 to clear",
+        "N toggles pencil marks"
+      ],
+      "howToPlay": [
+        "Tap a square, then tap a number. Tap the same number again to clear it.",
+        "Switch to pencil mode to jot the candidates you have not decided between.",
+        "A number that breaks a row, column or box is flagged straight away."
+      ],
+      "goal": "Fill the grid so every row, column and box holds one to nine exactly once.",
+      "cover": "games/sudoku/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-20T10:22:23.868Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/sudoku/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 36020,
+          "files": 4,
+          "releasedAt": "2026-08-20T10:22:23.868Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
+      "id": "tessera",
+      "title": "Tessera",
+      "tagline": "Four squares at a time, and the floor is coming up to meet you.",
+      "description": "The falling-block game, built from scratch and named its own thing. Seven pieces of four squares each drop into a ten-wide well; turn and shift them so they land flush, and a full row disappears. Clear several rows at once and it counts for far more. It speeds up every ten rows and it does not stop, so the whole game is about how tidy you can keep a stack you are running out of time to think about.",
+      "category": "arcade",
+      "tags": [
+        "blocks",
+        "highscore",
+        "reflex",
+        "touch"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Arrows or A / D to move",
+        "Up or X to rotate",
+        "Space to hard drop",
+        "C to hold a piece"
+      ],
+      "howToPlay": [
+        "Left and right shift the piece; up or X turns it; down drops it faster.",
+        "Space drops it the whole way instantly, and locks it there.",
+        "Fill a row completely and it clears. Fill four at once and it counts for far more."
+      ],
+      "goal": "Clear as many rows as you can before the stack reaches the top. Four rows at once is worth six times one.",
+      "cover": "games/tessera/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-20T10:22:23.502Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/tessera/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 28886,
+          "files": 4,
+          "releasedAt": "2026-08-20T10:22:23.502Z",
+          "notes": "First release."
+        }
+      ]
+    },
+    {
       "id": "umbra",
       "title": "Umbra",
       "tagline": "Down doubles it. Down might also end it.",
@@ -1151,6 +1389,45 @@
           "files": 4,
           "releasedAt": "2026-08-19T22:57:08.897Z",
           "notes": "First release. Curve tuned against twenty thousand simulated descents."
+        }
+      ]
+    },
+    {
+      "id": "untangle",
+      "title": "Untangle",
+      "tagline": "It is a mess of crossed lines. It does not have to be.",
+      "description": "A knot of pegs and threads, thrown down so the threads cross each other. Drag the pegs around until no thread crosses another. Every board here is built by taking an untangled arrangement and scrambling it, so a clean solution always exists — and the crossings still left are counted for you, which turns a hopeless-looking tangle into a number that only goes down.",
+      "category": "puzzle",
+      "tags": [
+        "logic",
+        "relaxing",
+        "touch",
+        "levels"
+      ],
+      "dimension": "2d",
+      "author": "HexCave",
+      "controls": [
+        "Drag the pegs",
+        "R reshuffles the board"
+      ],
+      "howToPlay": [
+        "Drag a peg to move it. The threads follow.",
+        "Crossings are counted at the top. Get it to zero and the board is done.",
+        "Threads that cross are drawn red; the ones that are clear go quiet."
+      ],
+      "goal": "Move the pegs until no two threads cross. Every board can be untangled.",
+      "cover": "games/untangle/cover.svg",
+      "latest": "1.0.0",
+      "updatedAt": "2026-08-20T10:22:24.160Z",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "games/untangle/1.0.0",
+          "entry": "index.html",
+          "totalBytes": 28406,
+          "files": 4,
+          "releasedAt": "2026-08-20T10:22:24.160Z",
+          "notes": "First release."
         }
       ]
     }

@@ -1,0 +1,32 @@
+{
+  "id": "sudoku",
+  "title": "Sudoku",
+  "tagline": "Nine by nine, one of each, no guessing required.",
+  "description": "Sudoku, generated fresh and never unfair. Every puzzle here is made by a generator that then hands it to a solver, and only ships it if there is exactly one answer and that answer can be reached by reasoning alone — no puzzle in this game needs a guess. Four difficulties, pencil marks for the ones you are not sure of, and a daily puzzle that everyone gets the same copy of.",
+  "category": "puzzle",
+  "tags": [
+    "logic",
+    "daily",
+    "levels",
+    "touch"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Tap a cell, then a number",
+    "Keys 1-9 to fill, 0 to clear",
+    "N toggles pencil marks"
+  ],
+  "howToPlay": [
+    "Tap a square, then tap a number. Tap the same number again to clear it.",
+    "Switch to pencil mode to jot the candidates you have not decided between.",
+    "A number that breaks a row, column or box is flagged straight away."
+  ],
+  "goal": "Fill the grid so every row, column and box holds one to nine exactly once.",
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-20T10:22:23.868Z",
+      "notes": "First release."
+    }
+  }
+}

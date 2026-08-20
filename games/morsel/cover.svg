@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="floor" cx="0.5" cy="0.55" r="0.78">
+      <stop offset="0" stop-color="#0c1c22"/><stop offset="1" stop-color="#080a14"/>
+    </radialGradient>
+    <linearGradient id="dart" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#e0f7ff"/>
+    </linearGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Corridors are cut out of the walls, the same way the game paints them. -->
+    <path id="maze" d="M-15,15 L495,15 M-15,255 L495,255
+      M75,75 L165,75 M255,75 L375,75 M375,75 L375,135
+      M45,135 L105,135 M195,135 L285,135 M195,135 L195,195
+      M75,75 L75,135 M75,195 L135,195 M285,195 L405,195 M435,75 L435,135
+      M45,225 L135,225 M255,225 L345,225"/>
+  </defs>
+
+  <rect width="480" height="270" fill="url(#floor)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#maze" stroke="#2dd4bf" stroke-width="30" opacity="0.18"/>
+    <use href="#maze" stroke="#2a7d8c" stroke-width="25"/>
+    <use href="#maze" stroke="#080a14" stroke-width="20"/>
+  </g>
+
+  <g fill="#f2d9a8">
+    <rect x="43" y="43" width="4" height="4"/><rect x="73" y="43" width="4" height="4"/>
+    <rect x="103" y="43" width="4" height="4"/><rect x="133" y="43" width="4" height="4"/>
+    <rect x="163" y="43" width="4" height="4"/><rect x="193" y="43" width="4" height="4"/>
+    <rect x="223" y="43" width="4" height="4"/><rect x="253" y="43" width="4" height="4"/>
+    <rect x="283" y="43" width="4" height="4"/><rect x="313" y="43" width="4" height="4"/>
+    <rect x="343" y="43" width="4" height="4"/><rect x="403" y="43" width="4" height="4"/>
+    <rect x="43" y="103" width="4" height="4"/><rect x="73" y="103" width="4" height="4"/>
+    <rect x="163" y="103" width="4" height="4"/><rect x="193" y="103" width="4" height="4"/>
+    <rect x="223" y="103" width="4" height="4"/><rect x="253" y="103" width="4" height="4"/>
+    <rect x="403" y="103" width="4" height="4"/>
+    <rect x="43" y="163" width="4" height="4"/><rect x="73" y="163" width="4" height="4"/>
+    <rect x="103" y="163" width="4" height="4"/><rect x="133" y="163" width="4" height="4"/>
+    <rect x="163" y="163" width="4" height="4"/><rect x="313" y="163" width="4" height="4"/>
+    <rect x="343" y="163" width="4" height="4"/><rect x="373" y="163" width="4" height="4"/>
+    <rect x="43" y="223" width="4" height="4"/><rect x="163" y="223" width="4" height="4"/>
+    <rect x="193" y="223" width="4" height="4"/><rect x="223" y="223" width="4" height="4"/>
+    <rect x="253" y="223" width="4" height="4"/><rect x="283" y="223" width="4" height="4"/>
+    <rect x="313" y="223" width="4" height="4"/><rect x="373" y="223" width="4" height="4"/>
+  </g>
+
+  <!-- A bright morsel: four arms, nothing else in the maze has corners like it. -->
+  <g fill="#fde047" filter="url(#glow)">
+    <path d="M45,60 Q48,72 60,75 Q48,78 45,90 Q42,78 30,75 Q42,72 45,60Z"/>
+    <path d="M435,210 Q438,222 450,225 Q438,228 435,240 Q432,228 420,225 Q432,222 435,210Z"/>
+  </g>
+
+  <!-- The blade goes straight at you. -->
+  <g filter="url(#glow)" transform="rotate(31 135 105)">
+    <path d="M151,105 L128.2,113.6 L134.3,105 L128.2,96.4Z" fill="#fb7185"/>
+  </g>
+  <!-- The pincer closes on where you are going, not where you are. -->
+  <g fill="none" stroke="#fb923c" stroke-width="6" stroke-linecap="round" filter="url(#glow)">
+    <path d="M321,95 A14,14 0 0 1 341,99"/>
+    <path d="M321,115 A14,14 0 0 0 341,111"/>
+  </g>
+  <!-- The keeper hollows out when it goes home. -->
+  <rect x="154" y="184" width="22" height="22" rx="3" transform="rotate(45 165 195)"
+        fill="none" stroke="#c084fc" stroke-width="4" filter="url(#glow)"/>
+  <!-- The drifter will not settle on an outline. -->
+  <path d="M419,130 L409,145 L397,146 L389,134 L396,122 L406,119 L415,125Z"
+        fill="#4ade80" filter="url(#glow)"/>
+
+  <g filter="url(#glow)">
+    <path d="M253,165 Q241,173 230,172 Q237,165 230,158 Q241,157 253,165Z" fill="url(#dart)"/>
+    <circle cx="244" cy="165" r="2.4" fill="#ffffff" opacity="0.9"/>
+  </g>
+</svg>

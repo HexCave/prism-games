@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tessera</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <header class="hud">
+    <div class="stat score"><b id="score">0</b><span>score</span></div>
+    <div class="right">
+      <div class="stat"><b id="rows">0</b><span>rows</span></div>
+      <div class="stat"><b id="level">1</b><span>level</span></div>
+      <div class="stat"><b id="best">0</b><span>best</span></div>
+    </div>
+  </header>
+
+  <div class="veil" id="veil" hidden>
+    <h1 id="veil-title">Paused</h1>
+    <p id="veil-text"></p>
+    <button id="again" type="button" hidden>Drop again</button>
+  </div>
+
+  <script src="prism-sdk.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

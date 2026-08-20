@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "morsel",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T10:22:24.075Z",
+  "totalBytes": 32516,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 821,
+      "sha256": "54e9f5c5c9cb2348cbd31c10912d0811ee605be1c43bdfd17c418a3d5bd58711"
+    },
+    {
+      "path": "main.js",
+      "bytes": 22320,
+      "sha256": "b4ebc00fb2467826b86dff8943ee80055bb4483dffb1dda3248a91e3c4ffe348"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 7409,
+      "sha256": "e500426b1d222e2ca4d5564ced6e00e40e9e9c97ed3e7d216c291dfef293a08c"
+    },
+    {
+      "path": "style.css",
+      "bytes": 1966,
+      "sha256": "d85ad470902e583c6150c459da50989e2611e46a3c07732eca9890dd74ce0478"
+    }
+  ]
+}

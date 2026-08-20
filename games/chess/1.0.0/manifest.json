@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "chess",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "builtAt": "2026-08-20T10:22:23.984Z",
+  "totalBytes": 43778,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1383,
+      "sha256": "ff84201376b7d4d50957fcfbf66cef9344b227b54446718cb2436116c34aaaa2"
+    },
+    {
+      "path": "main.js",
+      "bytes": 31256,
+      "sha256": "ff3814173b8f29cb8cee331a5407ca760c902dc78786f736403d622fef5823e3"
+    },
+    {
+      "path": "prism-sdk.js",
+      "bytes": 7409,
+      "sha256": "e500426b1d222e2ca4d5564ced6e00e40e9e9c97ed3e7d216c291dfef293a08c"
+    },
+    {
+      "path": "style.css",
+      "bytes": 3730,
+      "sha256": "56e2180b328e5137865050a1b3eee9e0aee7f65a115857fca2b7c5de5a56e4dc"
+    }
+  ]
+}

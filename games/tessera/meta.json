@@ -1,0 +1,33 @@
+{
+  "id": "tessera",
+  "title": "Tessera",
+  "tagline": "Four squares at a time, and the floor is coming up to meet you.",
+  "description": "The falling-block game, built from scratch and named its own thing. Seven pieces of four squares each drop into a ten-wide well; turn and shift them so they land flush, and a full row disappears. Clear several rows at once and it counts for far more. It speeds up every ten rows and it does not stop, so the whole game is about how tidy you can keep a stack you are running out of time to think about.",
+  "category": "arcade",
+  "tags": [
+    "blocks",
+    "highscore",
+    "reflex",
+    "touch"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Arrows or A / D to move",
+    "Up or X to rotate",
+    "Space to hard drop",
+    "C to hold a piece"
+  ],
+  "howToPlay": [
+    "Left and right shift the piece; up or X turns it; down drops it faster.",
+    "Space drops it the whole way instantly, and locks it there.",
+    "Fill a row completely and it clears. Fill four at once and it counts for far more."
+  ],
+  "goal": "Clear as many rows as you can before the stack reaches the top. Four rows at once is worth six times one.",
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-20T10:22:23.502Z",
+      "notes": "First release."
+    }
+  }
+}

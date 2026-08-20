@@ -1,0 +1,31 @@
+{
+  "id": "sherbet",
+  "title": "Sherbet",
+  "tagline": "Swap two sweets, line up three, and hope it keeps going.",
+  "description": "A match-three with a sweet shop's worth of colour. Swap any two neighbours to line up three or more and they burst; whatever is above drops into the gap, which is where the good runs come from — one swap setting off four collapses in a row. Line up four and you get a striped sweet that clears a whole line; five makes something that clears every sweet of one colour. Sixty levels, each with its own target and a fixed number of moves to hit it.",
+  "category": "puzzle",
+  "tags": [
+    "match-3",
+    "levels",
+    "touch",
+    "cascades"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Tap or click two neighbours to swap",
+    "Drag a sweet onto its neighbour"
+  ],
+  "howToPlay": [
+    "Swap two neighbouring sweets to line up three or more of a colour.",
+    "A swap that lines nothing up is not allowed, and does not cost a move.",
+    "Match four for a striped sweet that clears a line; match five for something better."
+  ],
+  "goal": "Hit each level’s target before the moves run out. Cascades and special sweets are where the points are.",
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-20T10:22:23.638Z",
+      "notes": "First release."
+    }
+  }
+}

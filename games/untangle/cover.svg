@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#06070c"/>
+    </linearGradient>
+    <radialGradient id="pool" cx="0.5" cy="0.52" r="0.62">
+      <stop offset="0" stop-color="#1e2942" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#06070c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="warm" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="480" height="270" fill="url(#bg)"/>
+  <rect width="480" height="270" fill="url(#pool)"/>
+
+  <!-- Threads that cross nothing: quiet, and most of the picture. -->
+  <g stroke="#8b98b3" stroke-opacity="0.34" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M78 74 214 62"/>
+    <path d="M214 62 330 104"/>
+    <path d="M214 62 402 70"/>
+    <path d="M330 104 402 70"/>
+    <path d="M300 232 104 218"/>
+    <path d="M402 70 428 178"/>
+    <path d="M104 218 166 168"/>
+    <path d="M428 178 258 196"/>
+    <path d="M196 126 258 196"/>
+  </g>
+
+  <!-- The seven that still cross something. -->
+  <g stroke="#f4746c" stroke-opacity="0.92" stroke-width="2.9" stroke-linecap="round" fill="none" filter="url(#warm)">
+    <path d="M78 74 300 232"/>
+    <path d="M78 74 166 168"/>
+    <path d="M214 62 166 168"/>
+    <path d="M300 232 166 168"/>
+    <path d="M402 70 258 196"/>
+    <path d="M104 218 196 126"/>
+    <path d="M104 218 258 196"/>
+    <path d="M330 104 428 178"/>
+  </g>
+
+  <g fill="#0d111c" stroke-width="2.6">
+    <g stroke="#cbd5e1" stroke-opacity="0.62">
+      <circle cx="214" cy="62" r="9"/>
+      <circle cx="330" cy="104" r="9"/>
+      <circle cx="428" cy="178" r="9"/>
+    </g>
+    <g stroke="#e9b0aa" stroke-opacity="0.8">
+      <circle cx="78" cy="74" r="9"/>
+      <circle cx="300" cy="232" r="9"/>
+      <circle cx="402" cy="70" r="9"/>
+      <circle cx="104" cy="218" r="9"/>
+      <circle cx="196" cy="126" r="9"/>
+      <circle cx="258" cy="196" r="9"/>
+      <circle cx="166" cy="168" r="9"/>
+    </g>
+  </g>
+  <g fill="#cbd5e1" fill-opacity="0.5">
+    <circle cx="78" cy="74" r="3"/><circle cx="214" cy="62" r="3"/><circle cx="330" cy="104" r="3"/>
+    <circle cx="300" cy="232" r="3"/><circle cx="402" cy="70" r="3"/><circle cx="104" cy="218" r="3"/>
+    <circle cx="428" cy="178" r="3"/><circle cx="196" cy="126" r="3"/><circle cx="258" cy="196" r="3"/>
+    <circle cx="166" cy="168" r="3"/>
+  </g>
+</svg>

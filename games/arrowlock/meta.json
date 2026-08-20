@@ -1,0 +1,31 @@
+{
+  "id": "arrowlock",
+  "title": "Arrowlock",
+  "tagline": "Every arrow wants out. Only some of them can go yet.",
+  "description": "A board packed with arrows, each pointing somewhere. Tap one and it slides off the board in the direction it faces — but only if nothing is in the way. You cannot lock yourself out: clearing an arrow only ever frees space, so a board can always be finished. What it costs you is attention. Tap something that is blocked and it lunges, snaps back, and takes one of your three hearts. The game is in the looking — following a lane all the way to the edge before you commit. Sixty boards, every one checked by a solver before it ships.",
+  "category": "puzzle",
+  "tags": [
+    "logic",
+    "levels",
+    "touch",
+    "daily"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Tap an arrow to send it",
+    "R restarts the board"
+  ],
+  "howToPlay": [
+    "Tap an arrow and it slides off the board the way it points, if the path is clear.",
+    "Follow the lane all the way to the edge first — a blocked tap costs a heart.",
+    "You cannot make a board unsolvable. You can only run out of hearts."
+  ],
+  "goal": "Clear every arrow off the board. A blocked tap costs a heart, and you only get three.",
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-20T10:22:23.756Z",
+      "notes": "First release."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "chess",
+  "title": "Chess",
+  "tagline": "The whole game, with an opponent that thinks a few moves ahead.",
+  "description": "Chess against an engine that plays the real thing — castling, en passant, promotion, the lot — and knows when it is checkmate, stalemate, or a draw by repetition. Four strengths, from one that plays almost at random to one that searches several moves deep and will take material if you leave it hanging. Legal moves are shown when you pick a piece up, the move list reads back in proper notation, and you can take a move back when you regret it.",
+  "category": "strategy",
+  "tags": [
+    "board",
+    "engine",
+    "strategy",
+    "touch"
+  ],
+  "dimension": "2d",
+  "author": "HexCave",
+  "controls": [
+    "Tap a piece, then its destination",
+    "U takes a move back",
+    "F flips the board"
+  ],
+  "howToPlay": [
+    "Tap a piece to see everywhere it can legally go, then tap the square you want.",
+    "Castling, en passant and promotion all work; check is announced.",
+    "Pick a strength before you start, and take a move back whenever you like."
+  ],
+  "goal": "Checkmate the engine. Or beat a harder one than you did last time.",
+  "releases": {
+    "1.0.0": {
+      "releasedAt": "2026-08-20T10:22:23.985Z",
+      "notes": "First release."
+    }
+  }
+}
